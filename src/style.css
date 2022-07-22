@@ -1,30 +1,30 @@
 @font-face {
   font-family: dumbledor;
-  src: url(../src/font/dumbledor/dum1/dum1.ttf);
+  src: url(./font/dumbledor/dum1/dum1.ttf);
 }
 @font-face {
   font-family: harryp;
-  src: url(../src/font/harry_p/HARRYP__.TTF);
+  src: url(./font/harry_p/HARRYP__.TTF);
 }
 @font-face {
   font-family: harrypotter7;
-  src: url(../src/font/it-all-ends-here-harry-potter-7_font/HarryPotter7.ttf);
+  src: url(./font/it-all-ends-here-harry-potter-7_font/HarryPotter7.ttf);
 }
 @font-face {
   font-family: SlabSerHPLHS;
-  src: url(../src/font/educational-decree_font/SlabSerHPLHS.otf);
+  src: url(./font/educational-decree_font/SlabSerHPLHS.otf);
 }
 @font-face {
   font-family: lumos;
-  src: url(../src/font/lumos/LUMOS.TTF);
+  src: url(./font/lumos/LUMOS.TTF);
 }
 @font-face {
   font-family: purple-3;
-  src: url(../src/font/have-you-seen-this-wizard_font/purple-3.ttf);
+  src: url(./font/have-you-seen-this-wizard_font/purple-3.ttf);
 }
 @font-face {
   font-family: magicschoolone;
-  src: url(../src/font/magic_school/MagicSchoolOne.ttf);
+  src: url(./font/magic_school/MagicSchoolOne.ttf);
 }
 
 nav{
@@ -32,10 +32,9 @@ nav{
   justify-content: space-around;
   align-items: center;
   font-family: "harryp";
-  background-color: #E7EDEB;
-  /* opacity: 10%; */
-  /* z-index: 9999; */
-  position: fixed;
+  background-color: #E7EDEB; 
+   z-index: 9999; 
+  position: relative;
   width: 100%;
 }
 
@@ -77,5 +76,4 @@ nav{
   text-align: center;
   font-family: "harryp";
   
-
 }
