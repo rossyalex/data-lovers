@@ -1,25 +1,68 @@
-.menu {
+@font-face {
+  font-family: dumbledor;
+  src: url(../src/font/dumbledor/dum1/dum1.ttf);
+}
+@font-face {
+  font-family: harryp;
+  src: url(../src/font/harry_p/HARRYP__.TTF);
+}
+@font-face {
+  font-family: harrypotter7;
+  src: url(../src/font/it-all-ends-here-harry-potter-7_font/HarryPotter7.ttf);
+}
+@font-face {
+  font-family: SlabSerHPLHS;
+  src: url(../src/font/educational-decree_font/SlabSerHPLHS.otf);
+}
+@font-face {
+  font-family: lumos;
+  src: url(../src/font/lumos/LUMOS.TTF);
+}
+@font-face {
+  font-family: purple-3;
+  src: url(../src/font/have-you-seen-this-wizard_font/purple-3.ttf);
+}
+@font-face {
+  font-family: magicschoolone;
+  src: url(../src/font/magic_school/MagicSchoolOne.ttf);
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "harryp";
+  background-color: #E7EDEB;
+  opacity: 33%;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.nav-links li {
   list-style: none;
-  padding: 0;
-  background-color: aliceblue;
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
 }
 
-.menu li a{
-  text-decoration: none;
+.nav-links a{
   color: #e9bd15;
-  padding: 20px;
-  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 14px 16px;
 }
 
-.menu li {
-  display: inline-block;
-  text-align: center;
+.nav-links li a.active{
+  background: #45413E;
+  opacity: 85%;
 }
-
-.menu li a:hover{
-  background: black;
-
+.nav-links li a:hover:not(.active){
+  background: #C8972E;
+  opacity: 81%;
+  color:black;
 }
