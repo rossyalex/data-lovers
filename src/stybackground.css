@@ -7,13 +7,20 @@
     max-width: 100%;
   }
   
+  body{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+
   .ag-smoke-block {
     z-index: 4;
     position: relative;
   }
   .ag-smoke-1 {
     z-index: -1;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
   
@@ -27,7 +34,7 @@
     width: 57.1em;
     z-index: 0;
     top: -5rem;
-    position: absolute;
+    position: fixed;
     left: 0;
   
     -webkit-animation: an-smoke-2 12s ease-in-out infinite;
