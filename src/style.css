@@ -28,9 +28,10 @@
 }
 
 #start{
-  background-image: url("img/harrypotterhead.jpg");
+  background-image: url("/img/harrypotterhead.jpg");
   width: 100%;
   height: 100%;
+  z-index: 2;
 }
 
 nav{
@@ -38,24 +39,18 @@ nav{
   justify-content: space-around;
   align-items: center;
   font-family: "harryp";
-  background-color: #E7EDEB;
-  opacity: 10%; 
+  background-color: #4C4845;
   z-index: 9999;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 
 .logo{
   display: inline-block;
-  width: 10%;
   padding-left: 20px;
+  max-width: 100%;
 }
 
-.logo img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
 .nav-links{
   display: flex;
   justify-content: space-around;
