@@ -27,14 +27,21 @@
   src: url(./font/magic_school/MagicSchoolOne.ttf);
 }
 
+#start{
+  background-image: url("img/harrypotterhead.jpg");
+  width: 100%;
+  height: 100%;
+}
+
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: "harryp";
-  background-color: #201E1A; 
-   z-index: 9999; 
-  position: relative;
+  background-color: #E7EDEB;
+  opacity: 10%; 
+  z-index: 9999;
+  position: fixed;
   width: 100%;
 }
 
@@ -91,5 +98,53 @@ nav{
   color: rgb(255, 240, 252);
   text-align: center;
   font-family: "harryp";
-  
 }
+
+.img{
+  box-sizing: border-box;
+  width: 40%;
+}
+
+
+
+.footer{
+  background-color: #222;
+  padding: 1rem;
+  color: #fff;
+  margin-top: auto;
+  font-family: "harryp";
+  font-size: 20px;
+
+}
+
+footer div {
+  float: right;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+footer a:hover {
+  color: #C8972E;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto 100px;
+
+}
+
+.backg {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
