@@ -27,40 +27,33 @@
   src: url(./font/magic_school/MagicSchoolOne.ttf);
 }
 
-#start{
-  background-image: url("img/harrypotterhead.jpg");
-  width: 100%;
-  height: 100%;
-}
-
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: "harryp";
-  background-color: #E7EDEB;
-  opacity: 10%; 
+  background-color: #4C4845;
+  opacity: 50%;
   z-index: 9999;
-  position: fixed;
+  position: relative;
   width: 100%;
+  height: 50px;
 }
 
 .logo{
   display: inline-block;
-  width: 10%;
   padding-left: 20px;
+  max-width: 100%;
+}
+.logo img{
+  width: 100%;
+  max-height: 3rem;
 }
 
-.logo img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
 .nav-links{
   display: flex;
   justify-content: space-around;
   width: 100%;
-
 }
 
 .nav-links li {
@@ -70,9 +63,61 @@ nav{
 .nav-links a{
   color: #D1D0D5;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   padding: 14px 16px;
   text-shadow: 2px 2px 5px #537569;
+}
+
+.checkbtn{
+  font-size: 15px;
+  color: #fff;
+  float: right;
+  line-height: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+#start{
+  background-image: url("/img/harrypotterhead.jpg");
+  width: 100%;
+  height: 170vh;
+}
+
+.startstyle1{
+  background-color: #7B7F82;
+  opacity: 60%;
+  width: 418px;
+  height: 155px;
+  position: relative;
+  top: 10%;
+  left: 49%;
+  margin-top: -72px;
+  margin-left: -622px;
+  font-family: "purple-3";
+  padding: 44px;
+  
+}
+
+.startstyle2{
+  width: 418px;
+  height: 330px;
+  position: relative;
+  top: 37%;
+  left: 55%;
+  font-family: "purple-3";
+  padding: 44px;
+  
+}
+
+.startstyle1 p, .startstyle2 p{
+  font-size: 25px;
+  color: #832F2C;
+  text-align: center;
 }
 
 .bar{
@@ -100,12 +145,10 @@ nav{
   font-family: "harryp";
 }
 
-.img{
+.grid img{
   box-sizing: border-box;
   width: 40%;
 }
-
-
 
 .footer{
   background-color: #222;
@@ -148,3 +191,40 @@ footer a:hover {
   padding: 1em;
 }
 
+@media(max-width:952px){
+  .logo{
+    padding-left: 20px;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+}
+
+@media(max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  li a:hover, li a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
