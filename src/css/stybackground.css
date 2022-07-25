@@ -28,26 +28,26 @@
     position: fixed;
     top: 0;
     right: 0;
-  
+
     -webkit-animation: an-smoke-1 12s ease-in-out infinite;
     -moz-animation: an-smoke-1 12s ease-in-out infinite;
     -o-animation: an-smoke-1 12s ease-in-out infinite;
     animation: an-smoke-1 12s ease-in-out infinite;
   }
-  
+
   .ag-smoke-2 {
     width: 57.1em;
     z-index: -2;
     top: -7rem;
     position: fixed;
     left: 0;
-  
+
     -webkit-animation: an-smoke-2 12s ease-in-out infinite;
     -moz-animation: an-smoke-2 12s ease-in-out infinite;
     -o-animation: an-smoke-2 12s ease-in-out infinite;
     animation: an-smoke-2 12s ease-in-out infinite;
   }
- 
+
   .ag-smoke__delay-1 {
     -webkit-animation-delay: 4s;
     -moz-animation-delay: 4s;
@@ -60,11 +60,11 @@
     -o-animation-delay: 8s;
     animation-delay: 8s;
   }
-  
+
   @-webkit-keyframes an-smoke-1 {
     0% {
       opacity: 0;
-  
+
       -webkit-transform: translateY(5%) rotate(.01deg);
       transform: translateY(5%) rotate(.01deg);
     }
@@ -73,7 +73,7 @@
     }
     to {
       opacity: 0;
-  
+
       -webkit-transform: translateY(0) rotate(.01deg);
       transform: translateY(0) rotate(.01deg);
     }
@@ -81,7 +81,7 @@
   @-moz-keyframes an-smoke-1 {
     0% {
       opacity: 0;
-  
+
       -moz-transform: translateY(5%) rotate(.01deg);
       transform: translateY(5%) rotate(.01deg);
     }
@@ -90,7 +90,7 @@
     }
     to {
       opacity: 0;
-  
+
       -moz-transform: translateY(0) rotate(.01deg);
       transform: translateY(0) rotate(.01deg);
     }
@@ -98,7 +98,7 @@
   @-o-keyframes an-smoke-1 {
     0% {
       opacity: 0;
-  
+
       -o-transform: translateY(5%) rotate(.01deg);
       transform: translateY(5%) rotate(.01deg);
     }
@@ -107,7 +107,7 @@
     }
     to {
       opacity: 0;
-  
+
       -o-transform: translateY(0) rotate(.01deg);
       transform: translateY(0) rotate(.01deg);
     }
@@ -115,7 +115,7 @@
   @keyframes an-smoke-1 {
     0% {
       opacity: 0;
-  
+
       -webkit-transform: translateY(5%) rotate(.01deg);
       -moz-transform: translateY(5%) rotate(.01deg);
       -o-transform: translateY(5%) rotate(.01deg);
@@ -126,18 +126,18 @@
     }
     to {
       opacity: 0;
-  
+
       -webkit-transform: translateY(0) rotate(.01deg);
       -moz-transform: translateY(0) rotate(.01deg);
       -o-transform: translateY(0) rotate(.01deg);
       transform: translateY(0) rotate(.01deg);
     }
   }
-  
+
   @-webkit-keyframes an-smoke-2 {
     0% {
       opacity: 0;
-  
+
       -webkit-transform: translate(-10%, 10%) rotate(.01deg);
       transform: translate(-10%, 10%) rotate(.01deg);
     }
@@ -146,7 +146,7 @@
     }
     to {
       opacity: 0;
-  
+
       -webkit-transform: translateY(5%) rotate(.01deg);
       transform: translateY(5%) rotate(.01deg);
     }
@@ -154,7 +154,7 @@
   @-moz-keyframes an-smoke-2 {
     0% {
       opacity: 0;
-  
+
       -moz-transform: translate(-10%, 10%) rotate(.01deg);
       transform: translate(-10%, 10%) rotate(.01deg);
     }
@@ -163,7 +163,7 @@
     }
     to {
       opacity: 0;
-  
+
       -moz-transform: translateY(5%) rotate(.01deg);
       transform: translateY(5%) rotate(.01deg);
     }
@@ -171,7 +171,7 @@
   @-o-keyframes an-smoke-2 {
     0% {
       opacity: 0;
-  
+
       -o-transform: translate(-10%, 10%) rotate(.01deg);
       transform: translate(-10%, 10%) rotate(.01deg);
     }
@@ -180,7 +180,7 @@
     }
     to {
       opacity: 0;
-  
+
       -o-transform: translateY(5%) rotate(.01deg);
       transform: translateY(5%) rotate(.01deg);
     }
@@ -188,7 +188,7 @@
   @keyframes an-smoke-2 {
     0% {
       opacity: 0;
-  
+
       -webkit-transform: translate(-10%, 10%) rotate(.01deg);
       -moz-transform: translate(-10%, 10%) rotate(.01deg);
     -o-transform: translate(-10%, 10%) rotate(.01deg);
@@ -280,12 +280,12 @@
 }
 
 .stars {
-    background:#000000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    background:#000000 url('../img/background/stars.png') repeat top center;
   z-index:-2;
 }
 
 .twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  background:transparent url('../img/background/twinkling.png') repeat top center;
   z-index:-2;
 
   -moz-animation:move-twink-back 500s linear infinite;
@@ -296,7 +296,7 @@
 }
 
 .clouds{
-    background:transparent url(https://www.script-tutorials.com/demos/360/images/clouds.png) repeat top center;
+    background:transparent url('../img/background/clouds.png') repeat top center;
     z-index:-2;
 
   -moz-animation:move-clouds-back 200s linear infinite;
