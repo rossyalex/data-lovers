@@ -1,0 +1,469 @@
+@font-face {
+  font-family: dumbledor;
+  src: url(../font/dumbledor/dum1/dum1.ttf);
+}
+@font-face {
+  font-family: harryp;
+  src: url(../font/harry_p/HARRYP__.TTF);
+}
+@font-face {
+  font-family: harrypotter7;
+  src: url(../font/it-all-ends-here-harry-potter-7_font/HarryPotter7.ttf);
+}
+@font-face {
+  font-family: SlabSerHPLHS;
+  src: url(../font/educational-decree_font/SlabSerHPLHS.otf);
+}
+@font-face {
+  font-family: lumos;
+  src: url(../font/lumos/LUMOS.TTF);
+}
+@font-face {
+  font-family: purple-3;
+  src: url(../font/have-you-seen-this-wizard_font/purple-3.ttf);
+}
+@font-face {
+  font-family: magicschoolone;
+  src: url(../font/magic_school/MagicSchoolOne.ttf);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-family: harryp, serif;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: harryp, serif;
+  color: white;
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-family: harryp, serif;
+  color: white;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-family: harryp, serif;
+  color: white;
+}
+
+h5 {
+  font-size: 1rem;
+  font-family: harryp, serif;
+  color: white;
+}
+
+h6 {
+  font-size: 0.875rem;
+  font-family: harryp, serif;
+  color: white;
+}
+
+p {
+  font-size: 2.25rem;
+  font-weight: 200;
+  line-height: 1.2;
+  font-family: harryp, serif;
+  color: white;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 100%;
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 80em) { /* 1200px */
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "harryp";
+  background-color: #4C4845;
+  opacity: 50%;
+  z-index: 9999;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.logo{
+  display: inline-block;
+  padding-left: 20px;
+  max-width: 100%;
+}
+.logo img{
+  width: 100%;
+  max-height: 3rem;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a{
+  color: #D1D0D5;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 14px 16px;
+  text-shadow: 2px 2px 5px #537569;
+}
+
+.checkbtn{
+  font-size: 15px;
+  color: #fff;
+  float: right;
+  line-height: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+#start{
+  background-image: url("../img/harrypotterhead.jpg");
+  width: 100%;
+  height: 170vh;
+}
+
+.startstyle1{
+  background-color: #7B7F82;
+  opacity: 60%;
+  width: 418px;
+  height: 155px;
+  position: relative;
+  top: 10%;
+  left: 49%;
+  margin-top: -72px;
+  margin-left: -622px;
+  font-family: "purple-3";
+  padding: 44px;
+
+}
+
+.startstyle2{
+  width: 418px;
+  height: 330px;
+  position: relative;
+  top: 37%;
+  left: 55%;
+  font-family: "purple-3";
+  padding: 44px;
+
+}
+
+.startstyle1 p, .startstyle2 p{
+  font-size: 25px;
+  color: #832F2C;
+  text-align: center;
+}
+
+.bar{
+  color: #D1D0D5;
+}
+.nav-links li a.active{
+  background: #45413E;
+  opacity: 85%;
+}
+.nav-links li a:hover:not(.active){
+  background: #C8972E;
+  opacity: 81%;
+  color:black;
+  text-shadow: 2px 2px 5px #4C4845;
+}
+
+.button {
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #C8972E;
+  margin: 2px;
+  padding: 5px;
+  color: rgb(255, 240, 252);
+  text-align: center;
+  font-family: "harryp";
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.footer{
+  background-color: #222;
+  padding: 1rem;
+  color: #fff;
+  margin-top: auto;
+  font-family: "harryp";
+  font-size: 20px;
+
+}
+
+footer div {
+  float: right;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+footer a:hover {
+  color: #C8972E;
+}
+
+@media(max-width:952px){
+  .logo{
+    padding-left: 20px;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+}
+
+@media(max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  li a:hover, li a.active{
+    background: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+.img-main {
+  width: 500px;
+  height: 500px;
+}
+
+.card {
+  background-color:rgba(255, 255, 255, 0.5);
+  max-width: 100%;
+  padding: 10px;
+}
+
+.text-top {
+ margin-top: 150px;
+}
