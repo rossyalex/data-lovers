@@ -1,152 +1,225 @@
 @font-face {
-    font-family: dumbledor;
-    src: url(./font/dumbledor/dum1/dum1.ttf);
-  }
-  @font-face {
-    font-family: harryp;
-    src: url(./font/harry_p/HARRYP__.TTF);
-  }
-  @font-face {
-    font-family: harrypotter7;
-    src: url(./font/it-all-ends-here-harry-potter-7_font/HarryPotter7.ttf);
-  }
-  @font-face {
-    font-family: SlabSerHPLHS;
-    src: url(./font/educational-decree_font/SlabSerHPLHS.otf);
-  }
-  @font-face {
-    font-family: lumos;
-    src: url(./font/lumos/LUMOS.TTF);
-  }
-  @font-face {
-    font-family: purple-3;
-    src: url(./font/have-you-seen-this-wizard_font/purple-3.ttf);
-  }
-  @font-face {
-    font-family: magicschoolone;
-    src: url(./font/magic_school/MagicSchoolOne.ttf);
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
+  font-family: dumbledor;
+  src: url(./font/dumbledor/dum1/dum1.ttf);
+}
+@font-face {
+  font-family: harryp;
+  src: url(./font/harry_p/HARRYP__.TTF);
+}
+@font-face {
+  font-family: harrypotter7;
+  src: url(./font/it-all-ends-here-harry-potter-7_font/HarryPotter7.ttf);
+}
+@font-face {
+  font-family: SlabSerHPLHS;
+  src: url(./font/educational-decree_font/SlabSerHPLHS.otf);
+}
+@font-face {
+  font-family: lumos;
+  src: url(./font/lumos/LUMOS.TTF);
+}
+@font-face {
+  font-family: purple-3;
+  src: url(./font/have-you-seen-this-wizard_font/purple-3.ttf);
+}
+@font-face {
+  font-family: magicschoolone;
+  src: url(./font/magic_school/MagicSchoolOne.ttf);
+}
 
-  nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: "harryp";
-    background-color: #11131f;
-    z-index: 9999;
-    position: relative;
-    width: 100%;
-    height: 50px;
-  }
-  
-  .logo{
-    display: inline-block;
-    padding-left: 20px;
-    max-width: 100%;
-  }
-  .logo img{
-    width: 100%;
-    max-height: 3rem;
-  }
-  
-  .nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  
-  .nav-links li {
-    list-style: none;
-  }
-  
-  .nav-links a{
-    color: #E19E09;
-    text-decoration: none;
-    font-size: 25px;
-    padding: 14px 16px;
-    text-shadow: 2px 1px 4px #7b7f82;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*  Inicio NavBar*/
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "harryp";
+  background: rgba(26, 32, 44, 0.5);
+  z-index: 9999;
+  position: relative;
+  width: 100%;
+  min-height: 50px;
+}
 
-  .checkbtn{
-    font-size: 15px;
-    color: #fff;
-    float: right;
-    line-height: 40px;
-    margin-right: 40px;
+.logo{
+  display: inline-block;
+  padding-left: 20px;
+  max-width: 100%;
+}
+.logo img{
+  height: 3rem;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a{
+  color: #D1D0D5;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 14px 16px;
+  text-shadow: 2px 2px 5px #537569;
+}
+.bar{
+  color: #D1D0D5;
+}
+.nav-links li a.active{
+  background: #45413E;
+  opacity: 85%;
+}
+.nav-links li a:hover:not(.active){
+  background: #E19E09;
+  opacity: 81%;
+  color:black;
+  text-shadow: 2px 2px 5px #4C4845;
+}
+
+.nav-menu-icon{
+  display: none;
+}
+
+@media (max-width:952px){
+  .nav-menu-icon{
+    width: 50%;
+    text-align: right;
+    display: block;
     cursor: pointer;
+  }
+  .nav-menu-icon i:hover{
+    color: #E19E09;
+  }
+  .nav-links{
     display: none;
   }
-  
-  #check{
-    display: none;
+  .nav-links.open{
+    position: absolute;
+    width: 180px;
+    display: block;
+    height: auto;
+    top: 50px;
+    right: 0px;
+    background-color: #fff;
   }
-
-  body{
-    background-image: url("/img/background/starBg.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    font-family: "dumbledor";
-    color: #fff;
+  .nav-links li{
+    flex-direction: column;
   }
-
-  .tittle-section{
-    justify-content: center;
-    text-align: center;
-    color: #FFFFFF;
-  
-  }
-  .tittles{
-    font-family: "magicschoolone";
-
-  }
-
-
-  .footer{
-    background-color: #222;
-    padding: 1rem;
-    color: #fff;
-    margin-top: auto;
-    font-family: "harryp";
+  .nav-links li a{
+    width: 100%;
+    display: block;
+    padding: 7px 16px;
+    background-color: rgb(26, 32, 44);
     font-size: 20px;
   }
-  
-  footer div {
-    float: right;
+  .nav-links .bar{
+    display: none;
   }
-  
-  footer p{
-    margin: 0;
+  .tittles{
+    font-size: 10vw;
   }
-  
-  footer a {
-    transition: color 0.3s ease;
-    color: #fff;
-    text-decoration: none;
-  
+  .t-paragraph{
+    font-size: 4vw;
   }
-  
-  footer a:hover {
-    color: #C8972E;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto 100px;
-  
-  }
-  
-  .backg {
-    background: #ecf0f1;
-    padding: 1em;
-  }
-  
-  @media(max-width:952px){
+
+}
+
+/*  Fin NavBar*/
+
+body {
+  background-image: url("/img/background/starBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "dumbledor";
+  color: #fff;
+}
+
+#tittle-section {
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.tittles {
+  font-family: "magicschoolone";
+  font-size: 8vw;
+  text-align: center;
+}
+
+.t-paragraph {
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: 0.5px;
+  margin: revert;
+}
+
+/* Sort */
+#filter-alphabet {
+  font-family: "harrypotter7";
+  background: #e19e09;
+  position: relative;
+  width: 10vh;
+  height: 5vh;
+  border-radius: 6px;
+}
+
+#sorter-funfacts {
+  justify-content: center;
+  display: flex;
+  margin: 15px;
+}
+
+/* Footer */
+.footer {
+  background: rgba(26, 32, 44, 0.5);
+  font-family: "harryp";
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer_text {
+  text-align: start;
+  margin: 0;
+}
+
+.footer_img {
+  height: 7vh;
+  align-self: center;
+  border-radius: 80%;
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  list-style-type: none;
+  color: #fff;
+}
+
+.social_media_icons {
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+  margin: auto 0.5rem;
+}
+
+.social_media_icons:hover{
+  color: #E19E09;
+}
+/* @media(max-width:952px){
     .logo{
       padding-left: 20px;
     }
@@ -182,4 +255,4 @@
     #check:checked ~ ul{
       left: 0;
     }
-  }
+  } */
