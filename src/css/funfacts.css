@@ -125,10 +125,10 @@ nav{
     display: none;
   }
   .tittles{
-    font-size: 10vw;
+    font-size: 7vw;
   }
   .t-paragraph{
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
 }
@@ -136,7 +136,7 @@ nav{
 /*  Fin NavBar*/
 
 body {
-  background-image: url("/img/background/starBg.jpg");
+  background-image: url("../img/background/starBg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "dumbledor";
