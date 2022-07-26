@@ -267,16 +267,10 @@ p {
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 100%;
-    max-width: 60rem;
-  }
-}
-
-@media only screen and (min-width: 80em) { /* 1200px */
-  .container {
-    width: 100%;
     max-width: 100%;
   }
 }
+
 
 nav{
   display: flex;
