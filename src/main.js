@@ -1,6 +1,12 @@
-import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+// import { example } from './data.js';
+import data from './data/harrypotter/data.js';
+import spell from '';
 
-console.log(example, data);
+console.log(data.characters);
+
+
+const menuIcon= document.querySelector("#menu-icon");
+menuIcon.addEventListener("click", function(){
+    const menu=document.querySelector(".nav-links");
+    menu.classList.toggle("open");
+})
