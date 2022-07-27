@@ -219,7 +219,7 @@ body {
 .social_media_icons:hover{
   color: #E19E09;
 }
-/* @media(max-width:952px){
+ @media(max-width:952px){
     .logo{
       padding-left: 20px;
     }
@@ -255,4 +255,4 @@ body {
     #check:checked ~ ul{
       left: 0;
     }
-  } */
+  } 
