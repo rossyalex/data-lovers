@@ -1,6 +1,5 @@
 // import { example } from './data.js';
 import data from './data/harrypotter/data.js';
-import spell from '';
 
 console.log(data.characters);
 
@@ -9,4 +8,11 @@ const menuIcon= document.querySelector("#menu-icon");
 menuIcon.addEventListener("click", function(){
     const menu=document.querySelector(".nav-links");
     menu.classList.toggle("open");
+})
+
+const card = document.querySelectorAll('.card');
+card.forEach((item) => {
+  item.addEventListener('click', function (){
+    this.classList.toggle('is-flipped');
+  })
 })
