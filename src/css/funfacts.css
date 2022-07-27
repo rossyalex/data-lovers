@@ -409,7 +409,11 @@ body {
 .social_media_icons:hover{
   color: #E19E09;
 }
+<<<<<<< HEAD
+ @media(max-width:952px){
+=======
 @media(max-width:952px){
+>>>>>>> 8025d2bcf0751cce399a31953a5524fd476da129
     .logo{
       padding-left: 20px;
     }
@@ -445,6 +449,9 @@ body {
     #check:checked ~ ul{
       left: 0;
     }
+<<<<<<< HEAD
+  } 
+=======
   }
 
   .img-spell{
@@ -504,3 +511,4 @@ body {
 }
 
 
+>>>>>>> 8025d2bcf0751cce399a31953a5524fd476da129
