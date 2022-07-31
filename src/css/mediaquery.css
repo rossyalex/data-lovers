@@ -1,0 +1,168 @@
+/*MediaQuery de Nav*/
+@media (max-width: 952px) {
+  .nav-menu-icon {
+    width: 50%;
+    text-align: right;
+    display: block;
+    cursor: pointer;
+    color: white;
+  }
+  .nav-menu-icon i:hover {
+    color: #e19e09;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links.open {
+    position: absolute;
+    width: 180px;
+    display: block;
+    height: auto;
+    top: 50px;
+    right: 0px;
+    background-color: #fff;
+  }
+  .nav-links li {
+    flex-direction: column;
+  }
+  .nav-links li a {
+    width: 100%;
+    display: block;
+    padding: 7px 16px;
+    background-color: rgb(26, 32, 44);
+    font-size: 20px;
+  }
+  .nav-links .bar {
+    display: none;
+  }
+  .tittles {
+    font-size: 7vw;
+  }
+  .t-paragraph {
+    font-size: 2vw;
+  }
+}
+/* Media query grid */
+
+@media only screen and (min-width: 480px) {
+  .container {
+    width: auto;
+  }
+  #start{
+    width: 100vh;
+  }
+  .startstyle1{
+    top: 10%;
+  }
+}
+
+@media only screen and (min-width: 45em) {/* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+
+  #start {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 60em) {/* 960px */
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .startstyle1 {
+    margin-top: -181px;
+    margin-left: -398px;
+    width: 43%;
+    height: 35%;
+    position: relative;
+    top: 48%;
+    left: 95%;
+  }
+  #start {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: -76px;
+  }
+}
+
+/*MediaQuery de footer*/
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  li a:hover,
+  li a.active {
+    background: none;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
