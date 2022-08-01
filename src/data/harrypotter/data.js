@@ -12029,18 +12029,18 @@ export default {
     },
     {
       "id": 3,
-      "type": "Antatagonist",
+      "type": "Antagonist",
       "content": "Lord Voldemort"
     },
     {
       "id": 4,
       "type": "Harry Potter's magic wand",
-      "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
+      "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood."
     },
     {
       "id": 5,
       "type": "Lord Voldemort's magic wand",
-      "content": "Lord Voldemort's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
+      "content": "Lord Voldemort's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood."
     },
     {
       "id": 6,
@@ -16223,6 +16223,36 @@ export default {
       "releaseDay": "July 30, 2016",
       "author": "J. K. Rowling",
       "description": "Harry's second son entered Hogwarts, but in Slytherin. His relationship with Harry is getting worse and he became close friends with Draco's son, Scorpius Malfoy who is said to be Lord Voldemort's son."
+    }
+  ],
+  houses: [
+    {
+      "id": 1,
+      "house": "Gryffindor",
+      "founder": "Godric Gryffindor",
+      "day": "March 22",
+      "description": "They are brave, sometimes reckless in their bravery."
+    },
+    {
+      "id": 2,
+      "house": "Ravenclaw",
+      "founder": "Rowena Ravenclaw",
+      "day": "March 23",
+      "description": "They are smart, smug, and high achievers."
+    },
+    {
+      "id": 3,
+      "house": "Slytherin",
+      "founder": "Salazar Slytherin",
+      "day": "March 22",
+      "description": "They are cunning and ambitious."
+    },
+    {
+      "id": 4,
+      "house": "Hufflepuff",
+      "founder": "Helga Hufflepuff",
+      "day": "March 23",
+      "description": "They are loyal, honest students who are not afraid of hard work."
     }
   ]
 }
