@@ -89,50 +89,6 @@ nav {
   display: none;
 }
 
-/*MediaQuery de Nav*/
-@media (max-width: 952px) {
-  .nav-menu-icon {
-    width: 50%;
-    text-align: right;
-    display: block;
-    cursor: pointer;
-    color: white;
-  }
-  .nav-menu-icon i:hover {
-    color: #e19e09;
-  }
-  .nav-links {
-    display: none;
-  }
-  .nav-links.open {
-    position: absolute;
-    width: 180px;
-    display: block;
-    height: auto;
-    top: 50px;
-    right: 0px;
-    background-color: #fff;
-  }
-  .nav-links li {
-    flex-direction: column;
-  }
-  .nav-links li a {
-    width: 100%;
-    display: block;
-    padding: 7px 16px;
-    background-color: rgb(26, 32, 44);
-    font-size: 20px;
-  }
-  .nav-links .bar {
-    display: none;
-  }
-  .tittles {
-    font-size: 7vw;
-  }
-  .t-paragraph {
-    font-size: 2vw;
-  }
-}
 /*  Fin NavBar*/
 
 html,
@@ -155,7 +111,7 @@ h1 {
   text-shadow: 2px 2px 5px #121514;
 }
 
-/*h2 {
+h2 {
   font-size: 2rem;
   font-family: harryp, serif;
   color: white;
@@ -167,7 +123,7 @@ h3 {
   color: white;
 }
 
-h4 {
+/*h4 {
   font-size: 1.125rem;
   font-family: harryp, serif;
   color: white;
@@ -310,6 +266,52 @@ p {
   display: none;
 }
 
+/*MediaQuery de Nav*/
+@media (max-width: 952px) {
+  .nav-menu-icon {
+    width: 50%;
+    text-align: right;
+    display: block;
+    cursor: pointer;
+    color: white;
+  }
+  .nav-menu-icon i:hover {
+    color: #e19e09;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links.open {
+    position: absolute;
+    width: 180px;
+    display: block;
+    height: auto;
+    top: 50px;
+    right: 0px;
+    background-color: #fff;
+  }
+  .nav-links li {
+    flex-direction: column;
+  }
+  .nav-links li a {
+    width: 100%;
+    display: block;
+    padding: 7px 16px;
+    background-color: rgb(26, 32, 44);
+    font-size: 20px;
+  }
+  .nav-links .bar {
+    display: none;
+  }
+  .titles {
+    font-size: 7vw;
+  }
+  .t-paragraph {
+    font-size: 2vw;
+  }
+}
+/* Media query grid */
+
 @media only screen and (min-width: 480px) {
   .container {
     width: auto;
@@ -326,7 +328,6 @@ p {
   .col-1 {
     width: 4.33%;
   }
-
   .col-2 {
     width: 12.66%;
   }
@@ -397,9 +398,40 @@ p {
   #start {
     width: 100%;
     max-width: 100%;
-  height: auto;
+    height: auto;
     display: flex;
     margin-top: -76px;
+  }
+}
+
+/*MediaQuery de footer*/
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  li a:hover,
+  li a.active {
+    background: none;
+  }
+  #check:checked ~ ul {
+    left: 0;
   }
 }
 
@@ -411,20 +443,6 @@ p {
   display: flex;
   margin-top: -76px;
 }
-
-/*.startstyle{
-  background-color: #7B7F82;
-  opacity: 60%;
-  width: 418px;
-  height: 155px;
-  position: relative;
-  top: 10%;
-  left: 49%;
-  margin-top: -72px;
-  margin-left: -622px;
-  font-family: "purple-3";
-  padding: 44px;
-}*/
 
 .startstyle1 {
   font-family: "purple-3";
@@ -465,13 +483,6 @@ p {
   border-radius: 8px;
 }
 
-.card {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 2px 2px 2px 2px;
-  max-width: 100%;
-  padding: 10px;
-}
-
 
 /* Footer */
 .footer {
@@ -482,7 +493,7 @@ p {
   justify-content: space-around;
   align-items: center;
   position: static;
-  bottom: 0;
+  margin-bottom: 0;
   width: 100%;
   margin-top: auto;
 }
@@ -518,33 +529,139 @@ p {
   color: #e19e09;
 }
 
-/*MediaQuery de footer*/
-@media (max-width: 858px) {
-  .checkbtn {
-    display: block;
-  }
-  ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 50px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
-  nav ul li {
-    display: block;
-    margin: 50px;
-    line-height: 30px;
-  }
-  nav ul li a {
-    font-size: 16px;
-  }
-  li a:hover,
-  li a.active {
-    background: none;
-  }
-  #check:checked ~ ul {
-    left: 0;
-  }
+/* Sect pages */
+
+.bodypage {
+  background-image: url("../img/background/starBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "dumbledor";
+  color: #fff;
+}
+
+.title-section {
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.titles {
+  font-family: "magicschoolone";
+  font-size: 8vw;
+  text-align: center;
+  margin: 0;
+}
+
+.t-paragraph {
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: 0.5px;
+  margin: revert;
+}
+
+/* Sort */
+.filter-alphabet {
+  font-family: "harrypotter7";
+  color: #fff;
+  background: #e19e09;
+  position: relative;
+  width: 10vh;
+  height: 3vh;
+  border-radius: 6px;
+}
+
+.sorter-funfacts {
+  justify-content:center;
+  display: inline;
+  margin: 15px;
+}
+
+.labelname{
+  font-family: "harrypotter7";
+
+}
+
+/* card */
+
+.img-spell {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.scene {
+  width: 250px;
+  height: 300px;
+  border: none;
+  margin: 40px 0;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2px 2px 2px 2px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card_face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 260px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5px;
+}
+
+.card-front {
+  background-color: black;
+}
+
+.card-back {
+  background-color: #e19e09;
+  transform: rotateY(180deg);
+}
+
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.card-fun {
+  width: 100%;
+  height: 300px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #E19E09;
+}
+
+.card-fun-content > h3 {
+  padding: 5px;
+  color: #E19E09;
+}
+
+.p-card-fun {
+  color: #E19E09;
 }
