@@ -4,6 +4,11 @@ import { funData } from "./js/fun.js";
 import {showBooks} from "./js/books.js";
 import harryJson from "./data/harrypotter/harry.json" assert { type: "json" };
 
+// import data from houses
+import { schoolsData } from "./js/schools.js";
+
+
+
 const home = document.getElementById('home');
 const fun = document.getElementById('fun');
 const characters = document.getElementById('characters');
@@ -27,6 +32,10 @@ const potions_btn = document.getElementById('potions-btn');
 // Selector Card
 const funSelect = document.getElementById('funSelect');
 const bookSelect = document.getElementById('bookSelect');
+
+// Selector Card Howard Schools
+const schoolsSelect = document.getElementById('schoolSelect');
+
 // console.log(data.characters);
 
 // Add event click to NavMenu
@@ -48,9 +57,15 @@ potions_btn.addEventListener('click', pageShow);
 funSelect.addEventListener('change', funChange);
 bookSelect.addEventListener('change', bookChange)
 
-// Function execute card
+// Event change selector
+schoolsSelect.addEventListener('change', schoolsChange);
+
+// Function execute card fun facts
 funData();
 showBooks(harryJson.books);
+
+// Function execute card Howard Schools
+schoolsData();
 
 /**
  * Función para ocultar todas las paginas
@@ -89,5 +104,17 @@ menuIcon.addEventListener("click", function(){
     const menu=document.querySelector(".nav-links");
     menu.classList.toggle("open");
 })
+
+/**
+ * Función Howard Schools
+ */
+
+function schoolsChange() {
+  const valueSchools = schoolsSelect.options[schoolsSelect.selectedIndex].value;
+  console.log(valueSchools);
+  schoolsData(valueSchools);
+}
+
+
 
 

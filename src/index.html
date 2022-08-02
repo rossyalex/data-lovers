@@ -220,7 +220,7 @@
         <section class="title-section">
           <div>
             <h1 class="titles">Meet the Characters</h1>
-            <p class="t-paragraph">Discover the curiosities behind the magical world of Harry Potter</p>
+            <p class="t-paragraph">Learn about each of the Harry Potter characters.</p>
           </div>
         </section>
         <!--Section Filter-->
@@ -259,7 +259,7 @@
           </div>
           <div class="sorter-funfacts">
             <label class="labelname">
-              Order alphabetically:
+              Sort:
               <select name="species" class="filter-alphabet">
                 <option value="A-Z">A - Z</option>
                 <option value="Z-A">Z - A</option>
@@ -306,9 +306,67 @@
             </label>
           </div>
         </section>
-
-        <!-- Cards Books -->
-        <div class="row" id="books-card"> 
+        <div class="row">
+          <div class="col-3">
+            <div class="scene">
+              <div class="card-book">
+                <div class="card_face card-front">
+                  <img src="img/funfact01.jpg" class="img-spell" alt="spell">
+                </div>
+                <div class="card_face card-back">
+                  <p>Soy un hechizo shazam!!!!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="scene">
+              <div class="card-book">
+                <div class="card_face card-front">
+                  <img src="img/funfact01.jpg" class="img-spell" alt="spell">
+                </div>
+                <div class="card_face card-back">
+                  <p>Soy un hechizo shazam!!!!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="scene">
+              <div class="card-book">
+                <div class="card_face card-front">
+                  <img src="img/funfact01.jpg" class="img-spell" alt="spell">
+                </div>
+                <div class="card_face card-back">
+                  <p>Soy un hechizo shazam!!!!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="scene">
+              <div class="card-book">
+                <div class="card_face card-front">
+                  <img src="img/funfact01.jpg" class="img-spell" alt="spell">
+                </div>
+                <div class="card_face card-back">
+                  <p>Soy un hechizo shazam!!!!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="scene">
+              <div class="card-book">
+                <div class="card_face card-front">
+                  <img src="img/funfact01.jpg" class="img-spell" alt="spell">
+                </div>
+                <div class="card_face card-back">
+                  <p>Soy un hechizo shazam!!!!</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -318,7 +376,9 @@
         <section class="title-section">
           <div>
             <h1 class="titles">Howard Schools</h1>
-            <p class="t-paragraph">Discover the curiosities behind the magical world of Harry Potter</p>
+            <p class="t-paragraph">
+              The house you belong to says a lot about your personality.
+              You want to know more ?</p>
           </div>
         </section>
         <!--Section Filter-->
@@ -326,13 +386,16 @@
           <div class="sorter-funfacts">
             <label class="labelname">
               Sort:
-              <select name="species" class="filter-alphabet">
-                <option value="A-Z">A - Z</option>
-                <option value="Z-A">Z - A</option>
+              <select id="schoolSelect" name="species" class="filter-alphabet">
+                <option value="asc">A - Z</option>
+                <option value="desc">Z - A</option>
               </select>
             </label>
           </div>
         </section>
+        <!-- Cards School -->
+        <div id="schoolCard" class="row">
+        </div>
       </div>
     </div>
     <!-- Potions Page -->
@@ -341,7 +404,7 @@
         <section class="title-section">
           <div>
             <h1 class="titles">Potions and Spells</h1>
-            <p class="t-paragraph">Discover the curiosities behind the magical world of Harry Potter</p>
+            <p class="t-paragraph">Would you like to learn spells and potions from the saga? Come and learn them.</p>
           </div>
         </section>
 
@@ -380,7 +443,7 @@
         <!--Section card -->
 
         <div class="scene">
-          <div class="card">
+          <div class="card-potion">
             <div class="card_face card-front">
               <img src="img/spellsandpotion/spells.jpg" class="img-spell" alt="spell">
             </div>
@@ -391,7 +454,7 @@
         </div>
 
         <div class="scene">
-          <div class="card">
+          <div class="card-potion">
             <div class="card_face card-front">
               <img src="img/spellsandpotion/spells.jpg" class="img-spell" alt="spell">
             </div>
