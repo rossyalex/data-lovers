@@ -1,6 +1,8 @@
 // import { example } from './data.js';
 // import data from './data/harrypotter/data.js';
 import { funData } from "./js/fun.js";
+import {showBooks} from "./js/books.js";
+import harryJson from "./data/harrypotter/harry.json" assert { type: "json" };
 
 const home = document.getElementById('home');
 const fun = document.getElementById('fun');
@@ -24,7 +26,7 @@ const potions_btn = document.getElementById('potions-btn');
 
 // Selector Card
 const funSelect = document.getElementById('funSelect');
-
+const bookSelect = document.getElementById('bookSelect');
 // console.log(data.characters);
 
 // Add event click to NavMenu
@@ -44,9 +46,11 @@ potions_btn.addEventListener('click', pageShow);
 
 // Event change selector ordered fun facts
 funSelect.addEventListener('change', funChange);
+bookSelect.addEventListener('change', bookChange)
 
 // Function execute card
 funData();
+showBooks(harryJson.books);
 
 /**
  * Función para ocultar todas las paginas
@@ -74,16 +78,16 @@ function funChange() {
   funData(value);
 }
 
+function bookChange() {
+  const value = bookSelect.options[bookSelect.selectedIndex].value;
+  bookOrder(value);
+}
+
+//Menú desplegable
 const menuIcon= document.querySelector("#menu-icon");
 menuIcon.addEventListener("click", function(){
     const menu=document.querySelector(".nav-links");
     menu.classList.toggle("open");
 })
 
-// TODO function books HarryPotter
-// const card = document.querySelectorAll('.card');
-// card.forEach((item) => {
-//   item.addEventListener('click', function (){
-//     this.classList.toggle('is-flipped');
-//   })
-// })
+
