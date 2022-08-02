@@ -608,6 +608,18 @@ p {
   padding: 10px;
 }
 
+.card-book {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2px 2px 2px 2px;
+  max-width: 100%;
+  padding: 10px;
+}
+
 .card.is-flipped {
   transform: rotateY(180deg);
 }
@@ -664,4 +676,21 @@ p {
 
 .p-card-fun {
   color: #E19E09;
+}
+
+.card-potion {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2px 2px 2px 2px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.img-schools {
+  width: 220px;
+  height: 250px;
 }

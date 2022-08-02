@@ -2,6 +2,11 @@
 // import data from './data/harrypotter/data.js';
 import { funData } from "./js/fun.js";
 
+// import data from houses
+import { schoolsData } from "./js/schools.js";
+
+
+
 const home = document.getElementById('home');
 const fun = document.getElementById('fun');
 const characters = document.getElementById('characters');
@@ -25,6 +30,9 @@ const potions_btn = document.getElementById('potions-btn');
 // Selector Card
 const funSelect = document.getElementById('funSelect');
 
+// Selector Card Howard Schools
+const schoolsSelect = document.getElementById('schoolSelect');
+
 // console.log(data.characters);
 
 // Add event click to NavMenu
@@ -45,8 +53,14 @@ potions_btn.addEventListener('click', pageShow);
 // Event change selector ordered fun facts
 funSelect.addEventListener('change', funChange);
 
-// Function execute card
+// Event change selector
+schoolsSelect.addEventListener('change', schoolsChange);
+
+// Function execute card fun facts
 funData();
+
+// Function execute card Howard Schools
+schoolsData();
 
 /**
  * Función para ocultar todas las paginas
@@ -80,10 +94,15 @@ menuIcon.addEventListener("click", function(){
     menu.classList.toggle("open");
 })
 
-// TODO function books HarryPotter
-// const card = document.querySelectorAll('.card');
-// card.forEach((item) => {
-//   item.addEventListener('click', function (){
-//     this.classList.toggle('is-flipped');
-//   })
-// })
+/**
+ * Función Howard Schools
+ */
+
+function schoolsChange() {
+  const valueSchools = schoolsSelect.options[schoolsSelect.selectedIndex].value;
+  console.log(valueSchools);
+  schoolsData(valueSchools);
+}
+
+
+
