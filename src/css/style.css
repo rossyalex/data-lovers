@@ -26,6 +26,10 @@
   font-family: magicschoolone;
   src: url(../font/magic_school/MagicSchoolOne.ttf);
 }
+@font-face{
+  font-family: tatu;
+  src: url(../font/);
+}
 
 * {
   margin: 0;
@@ -113,13 +117,13 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-family: harryp, serif;
+  font-family: harryp;
   color: white;
 }
 
 h3 {
   font-size: 1.375rem;
-  font-family: harryp, serif;
+  font-family: dumbledor;
   color: white;
 }
 
@@ -142,11 +146,10 @@ h6 {
 }*/
 
 p {
-  margin: 30px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 200;
   line-height: 1.2;
-  font-family: harryp, serif;
+  font-family: dumbledor;
   color: white;
   letter-spacing: 1px;
 }
@@ -308,6 +311,7 @@ p {
   }
   .t-paragraph {
     font-size: 2vw;
+    
   }
 }
 /* Media query grid */
@@ -387,13 +391,9 @@ p {
     max-width: 100%;
   }
   .startstyle1 {
-    margin-top: -181px;
-    margin-left: -398px;
     width: 43%;
     height: 35%;
     position: relative;
-    top: 48%;
-    left: 95%;
   }
   #start {
     width: 100%;
@@ -439,7 +439,7 @@ p {
   background-image: url("../img/harrypotterhead.jpg");
   background-repeat: no-repeat;
   width: 100%;
-  height: 80vw;
+  height: 1080px;
   display: flex;
   margin-top: -76px;
 }
@@ -449,10 +449,7 @@ p {
   padding: 44px;
   height: 35%;
   position: relative;
-  top: 61%;
-  left: 104%;
-  margin-top: -41px;
-  margin-left: -758px;
+
 }
 
 .startstyle1 p {
@@ -556,6 +553,7 @@ p {
   font-size: 2vw;
   letter-spacing: 0.5px;
   margin: revert;
+  padding: 0 119px;
 }
 
 /* Sort */
@@ -584,13 +582,19 @@ p {
 
 .img-spell {
   width: 250px;
-  height: 300px;
-  border-radius: 5px;
+  height: 350px;
+  border-radius: 6px;
 }
 
-.scene {
+.img-spell2 {
   width: 250px;
-  height: 300px;
+  height: 385px;
+  border-radius: 6px;
+  margin-top: 17px;
+}
+.scene {
+  width: 285px;
+  height: 418px;
   border: none;
   margin: 40px 0;
 }
@@ -602,10 +606,9 @@ p {
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 2px 2px 2px 2px;
+  background-color: rgba(131, 47, 44, 0.7);
+  border-radius: 6px;
   max-width: 100%;
-  padding: 10px;
 }
 
 .card-book {
@@ -628,23 +631,24 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  line-height: 260px;
+  line-height: 20px;
   color: white;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 5px;
 }
 
-.card-front {
+/* .card-front {
   background-color: black;
-}
+} */
 
 .card-back {
-  background-color: #e19e09;
+  background-color: #832f2c;
   transform: rotateY(180deg);
+  border-radius: 6px;
+  padding: 13px;
 }
 
 

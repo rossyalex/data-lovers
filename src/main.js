@@ -1,6 +1,8 @@
 // import { example } from './data.js';
 // import data from './data/harrypotter/data.js';
 import { funData } from "./js/fun.js";
+import {showBooks} from "./js/books.js";
+import harryJson from "./data/harrypotter/harry.json" assert { type: "json" };
 
 // import data from houses
 import { schoolsData } from "./js/schools.js";
@@ -29,6 +31,7 @@ const potions_btn = document.getElementById('potions-btn');
 
 // Selector Card
 const funSelect = document.getElementById('funSelect');
+const bookSelect = document.getElementById('bookSelect');
 
 // Selector Card Howard Schools
 const schoolsSelect = document.getElementById('schoolSelect');
@@ -52,12 +55,14 @@ potions_btn.addEventListener('click', pageShow);
 
 // Event change selector ordered fun facts
 funSelect.addEventListener('change', funChange);
+bookSelect.addEventListener('change', bookChange)
 
 // Event change selector
 schoolsSelect.addEventListener('change', schoolsChange);
 
 // Function execute card fun facts
 funData();
+showBooks(harryJson.books);
 
 // Function execute card Howard Schools
 schoolsData();
@@ -88,6 +93,12 @@ function funChange() {
   funData(value);
 }
 
+function bookChange() {
+  const value = bookSelect.options[bookSelect.selectedIndex].value;
+  bookOrder(value);
+}
+
+//Menú desplegable
 const menuIcon= document.querySelector("#menu-icon");
 menuIcon.addEventListener("click", function(){
     const menu=document.querySelector(".nav-links");
@@ -103,6 +114,7 @@ function schoolsChange() {
   console.log(valueSchools);
   schoolsData(valueSchools);
 }
+
 
 
 
