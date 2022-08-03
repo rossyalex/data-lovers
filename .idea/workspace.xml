@@ -4,7 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f06221ca-99d7-4ec8-9d52-290ee0df75a8" name="Changes" comment="" />
+    <list default="true" id="4a20f0e2-3bd7-459e-b591-03c99c51795d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/harrypotter/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/harrypotter/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/Alastorojolocomoody.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/Alastorojolocomoody.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/BaronHP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/BaronHP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/abercrombie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/abercrombie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/albusdumbledore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/albusdumbledore.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/albuspotter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/albuspotter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/alice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/alice.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/argusfilch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/argusfilch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/arthurweasley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/arthurweasley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/augusta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/augusta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/auro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/auro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/bartemiuscrounch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/bartemiuscrounch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/bellatrixlestrange.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/bellatrixlestrange.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/billweasley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/billweasley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/black.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/brujacarrito.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/brujacarrito.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/cedricdiggory.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/cedricdiggory.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/chochang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/chochang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/corneliusfudge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/corneliusfudge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/dobby.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/dobby.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/doloresumbridge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/doloresumbridge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/dracomalfoy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/dracomalfoy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/dudleydursley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/dudleydursley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/dumbledore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/dumbledore.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/eloise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/eloise.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/enid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/enid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/filiusflitwickbattle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/filiusflitwickbattle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/fleurDelacour.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/fleurDelacour.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/gemelosweasly.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/gemelosweasly.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/gilderoylockhart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/gilderoylockhart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/ginnyweasley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/ginnyweasley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/gregorygoyle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/gregorygoyle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/hannahabbott.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/hannahabbott.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/harrypotter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/harrypotter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/hedwig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/hedwig.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/helena.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/helena.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/helga.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/helga.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/hermionegranger.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/hermionegranger.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/hermionemother.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/hermionemother.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/horaceslughorn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/horaceslughorn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/irma.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/irma.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/justinfinchfletchley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/justinfinchfletchley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/kingsleyshacklebolt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/kingsleyshacklebolt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/lily.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/lily.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/lordvoldemort.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/lordvoldemort.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/luciusmalfoy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/luciusmalfoy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/lunalovegood.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/lunalovegood.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/mafalda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/mafalda.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/marcusbelby.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/marcusbelby.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/marcusflint.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/marcusflint.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/marlene.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/marlene.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/merope.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/merope.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/mikecorner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/mikecorner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/minervamcgonagall.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/minervamcgonagall.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/mollyweasly.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/mollyweasly.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/myrtle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/myrtle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/narcissamalfloy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/narcissamalfloy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/nevillelongbottom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/nevillelongbottom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/norberta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/norberta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/norris.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/norris.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/nymphadora.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/nymphadora.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/nymphadoratonks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/nymphadoratonks.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/ollivander.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/ollivander.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/olympe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/olympe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/padma.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/padma.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/padmapatil.jpg.crdownload" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/padmapatil.jpg.crdownload" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/pansysexto.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/pansysexto.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/parvati.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/parvati.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/peterpettigrew.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/peterpettigrew.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/petuniadursley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/petuniadursley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/pomona.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/pomona.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/poppy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/poppy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/poppypomfrey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/poppypomfrey.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/quirinusquirrell.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/quirinusquirrell.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/regulusarcturusblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/regulusarcturusblack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/remuslupin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/remuslupin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/ritaskeeter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/ritaskeeter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/rogerdavies.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/rogerdavies.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/rolanda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/rolanda.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/ronweasley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/ronweasley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/rose.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/rose.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/rosmerta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/rosmerta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/rowe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/rowe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/rubeushagrid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/rubeushagrid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/rufusscrimgeour.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/rufusscrimgeour.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/scorpiusmalfoy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/scorpiusmalfoy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/septima.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/septima.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/severussnape.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/severussnape.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/siriusblack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/siriusblack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/slytherin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/slytherin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/susanbones.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/susanbones.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/sybiltrelawney.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/sybiltrelawney.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/tomriderlordvoldermort.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/tomriderlordvoldermort.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/vernondursley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/vernondursley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/victoire.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/victoire.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/viktorkrum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/viktorkrum.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/vincentcrabbe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/vincentcrabbe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/winky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/winky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/charters/xenophiliuslovegood.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/characters/xenophiliuslovegood.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/schools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/schools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,45 +125,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CRsthl1pw2fwi1GdgcVc6EKdrR" />
+  <component name="ProjectId" id="2CpKXkTmksSPrtf7lGzsA0wTLQD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rossy/Sites/SCL021-data-lovers&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/img/charters" />
-      <recent name="$PROJECT_DIR$/src/img" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f06221ca-99d7-4ec8-9d52-290ee0df75a8" name="Changes" comment="" />
-      <created>1658776947772</created>
+      <changelist id="4a20f0e2-3bd7-459e-b591-03c99c51795d" name="Changes" comment="" />
+      <created>1659494130248</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1658776947772</updated>
-      <workItem from="1658776949512" duration="16978000" />
-      <workItem from="1658868107481" duration="28503000" />
-      <workItem from="1659273521765" duration="42529000" />
+      <updated>1659494130248</updated>
+      <workItem from="1659494133119" duration="6328000" />
     </task>
     <servers />
   </component>

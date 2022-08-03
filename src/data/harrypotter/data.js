@@ -15,7 +15,7 @@ export default {
       "house": "Gryffindor",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [5],
-      "image": "img/charters/abercrombie.jpg"
+      "image": "img/characters/abercrombie.jpg"
 
     },
     {
@@ -827,7 +827,7 @@ export default {
         "Order of the Phoenix",
       ],
       "books_featured_in": [1, 3, 4, 5, 6, 7],
-      "image": "img/charters/black.jpg"
+      "image": "img/characters/black.jpg"
     },
     {
       "id": 51,
@@ -9213,7 +9213,7 @@ export default {
         "Department of Magical Law Enforcement"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/hermionegranger.jpg"
+      "image": "img/characters/hermionegranger.jpg"
     },
     {
       "id": 588,
@@ -9230,7 +9230,7 @@ export default {
       "house": null,
       "associated_groups": ["Granger family"],
       "books_featured_in": [1, 2, 3, 5, 7],
-      "image": "img/charters/hermionemother.jpg"
+      "image": "img/characters/hermionemother.jpg"
     },
     {
       "id": 589,
@@ -9348,7 +9348,7 @@ export default {
       "house": null,
       "associated_groups": ["Harry Potter (owner)", "Eeylops Owl Emporium (formerly)", "Hogwarts Owlery"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/hedwig.jpg"
+      "image": "img/characters/hedwig.jpg"
     },
     {
       "id": 596,
@@ -9413,7 +9413,7 @@ export default {
       "house": null,
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1, 2, 3, 5, 6],
-      "image": "img/charters/rolanda.jpg"
+      "image": "img/characters/rolanda.jpg"
     },
     {
       "id": 601,
@@ -9430,7 +9430,7 @@ export default {
       "house": null,
       "associated_groups": ["British Ministry of Magic", "Improper Use of Magic Office", "Death Eaters (indirectly)"],
       "books_featured_in": [2, 5, 7],
-      "image": "img/charters/mafalda.jpg"
+      "image": "img/characters/mafalda.jpg"
     },
     {
       "id": 602,
@@ -9485,7 +9485,7 @@ export default {
         "nationality = Welsh"
       ],
       "books_featured_in": [2, 3, 4, 5, 6, 7],
-      "image": "img/charters/helga.jpg"
+      "image": "img/characters/helga.jpg"
     },
     {
       "id": 606,
@@ -9784,7 +9784,7 @@ export default {
       "house": "House of Black",
       "associated_groups": [],
       "books_featured_in": [4, 5, 6, 7],
-      "image": "img/charters/bellatrixlestrange.jpg"
+      "image": "img/characters/bellatrixlestrange.jpg"
     },
     {
       "id": 623,
@@ -9822,7 +9822,7 @@ export default {
       "house": null,
       "associated_groups": ["Longbottom family", "Order of the Phoenix", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/augusta.jpg"
+      "image": "img/characters/augusta.jpg"
     },
     {
       "id": 625,
@@ -9847,7 +9847,7 @@ export default {
         "The Quibbler"
       ],
       "books_featured_in": [4, 5, 6, 7],
-      "image": "img/charters/lunalovegood.jpg"
+      "image": "img/characters/lunalovegood.jpg"
     },
     {
       "id": 626,
@@ -9992,7 +9992,7 @@ export default {
       "house": "House of Black",
       "associated_groups": [],
       "books_featured_in": [1, 4, 5, 6, 7],
-      "image": "img/charters/narcissamalfloy.jpg"
+      "image": "img/characters/narcissamalfloy.jpg"
     },
     {
       "id": 635,
@@ -10105,7 +10105,7 @@ export default {
       "house": null,
       "associated_groups": ["Beauxbatons Academy of Magic", "Order of the Phoenix", "Maxime family"],
       "books_featured_in": [4, 5, 6],
-      "image": "img/charters/olympe.jpg"
+      "image": "img/characters/olympe.jpg"
     },
     {
       "id": 642,
@@ -10166,7 +10166,7 @@ export default {
         "Dumbledore's Army"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/minervamcgonagall.jpg"
+      "image": "img/characters/minervamcgonagall.jpg"
     },
     {
       "id": 645,
@@ -10183,7 +10183,7 @@ export default {
       "house": null,
       "associated_groups": ["Order of the Phoenix", "McKinnon family"],
       "books_featured_in": [1, 4, 5, 7],
-      "image": "img/charters/marlene.jpg"
+      "image": "img/characters/marlene.jpg"
     },
     {
       "id": 646,
@@ -10248,7 +10248,7 @@ export default {
       "house": "Gryffindor",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Midgen family"],
       "books_featured_in": [4, 5, 6],
-      "image": "img/charters/eloise.jpg"
+      "image": "img/characters/eloise.jpg"
 
 
     },
@@ -10464,7 +10464,7 @@ export default {
       "house": null,
       "associated_groups": ["Quirinus Quirrell (as egg)", "Rubeus Hagrid", "Romanian Dragon Sanctuary"],
       "books_featured_in": [1, 2, 3, 4, 5, 7],
-      "image": "img/charters/norberta.jpg"
+      "image": "img/characters/norberta.jpg"
     },
     {
       "id": 663,
@@ -10481,7 +10481,7 @@ export default {
       "house": null,
       "associated_groups": ["Argus Filch (owner)", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/norris.jpg"
+      "image": "img/characters/norris.jpg"
     },
     {
       "id": 664,
@@ -10537,7 +10537,7 @@ export default {
         "Death Eaters (unofficial)"
       ],
       "books_featured_in": [1, 3, 4, 5, 6, 7],
-      "image": "img/charters/pansysexto.PNG"
+      "image": "img/characters/pansysexto.PNG"
     },
     {
       "id": 667,
@@ -10570,7 +10570,7 @@ export default {
       "house": "Ravenclaw",
       "associated_groups": ["Patil family", "Dumbledore's Army", "Hogwarts School of Witchcraft and Wizardry", "Ravenclaw"],
       "books_featured_in": [1, 4, 5, 6, 7],
-      "image": "img/charters/padma.jpg"
+      "image": "img/characters/padma.jpg"
     },
     {
       "id": 669,
@@ -10587,7 +10587,7 @@ export default {
       "house": "Gryffindor",
       "associated_groups": ["Patil family", "Dumbledore's Army", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/parvati.jpg"
+      "image": "img/characters/parvati.jpg"
     },
     {
       "id": 670,
@@ -10636,7 +10636,7 @@ export default {
       "house": null,
       "associated_groups": [],
       "books_featured_in": [3, 4, 6, 7],
-      "image": "img/charters/enid.jpg"
+      "image": "img/characters/enid.jpg"
     },
     {
       "id": 673,
@@ -10669,7 +10669,7 @@ export default {
       "house": null,
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Hogwarts Library"],
       "books_featured_in": [1, 2, 4, 5, 6],
-      "image": "img/charters/irma.jpg"
+      "image": "img/characters/irma.jpg"
     },
     {
       "id": 675,
@@ -10708,7 +10708,7 @@ export default {
         "Dumbledore's Army (during the Battle of the Astronomy Tower and the Battle of Hogwarts"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/poppy.jpg"
+      "image": "img/characters/poppy.jpg"
     },
     {
       "id": 677,
@@ -10786,7 +10786,7 @@ export default {
         "Order of the Phoenix"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/lily.jpg"
+      "image": "img/characters/lily.jpg"
     },
     {
       "id": 681,
@@ -10915,7 +10915,7 @@ export default {
       "house": "Ravenclaw",
       "associated_groups": ["Ravenclaw family", "Hogwarts School of Witchcraft and Wizardry", "Ravenclaw"],
       "books_featured_in": [1, 6, 7],
-      "image": "img/charters/helena.jpg"
+      "image": "img/characters/helena.jpg"
 
     },
     {
@@ -10933,7 +10933,7 @@ export default {
       "house": "Ravenclaw",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Ravenclaw", "Ravenclaw family"],
       "books_featured_in": [2, 4, 5, 7],
-      "image": "img/charters/rowe.jpg"
+      "image": "img/characters/rowe.jpg"
     },
     {
       "id": 690,
@@ -10982,7 +10982,7 @@ export default {
       "house": "House of Gaunt (abandoned)",
       "associated_groups": [],
       "books_featured_in": [2, 4, 5, 6, 7],
-      "image": "img/charters/merope.jpg"
+      "image": "img/characters/merope.jpg"
     },
     {
       "id": 693,
@@ -11079,7 +11079,7 @@ export default {
       "house": null,
       "associated_groups": ["Three Broomsticks Inn", "Draco Malfoy (while under the Imperius Curse)"],
       "books_featured_in": [3, 4, 6],
-      "image": "img/charters/rosmerta.jpg"
+      "image": "img/characters/rosmerta.jpg"
 
     },
     {
@@ -11113,7 +11113,7 @@ export default {
       "house": "Salazar Slytherin",
       "associated_groups": [],
       "books_featured_in": [2, 3, 4, 5, 6, 7],
-      "image": "img/charters/slytherin.jpg"
+      "image": "img/characters/slytherin.jpg"
     },
     {
       "id": 701,
@@ -11130,7 +11130,7 @@ export default {
       "house": null,
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Astronomy department"],
       "books_featured_in": [2, 4, 5],
-      "image": "img/charters/auro.jpg"
+      "image": "img/characters/auro.jpg"
     },
     {
       "id": 703,
@@ -11232,7 +11232,7 @@ export default {
         "Dumbledore's Army"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/alice.jpg"
+      "image": "img/characters/alice.jpg"
     },
     {
       "id": 709,
@@ -11271,7 +11271,7 @@ export default {
         "Dumbledore's Army (during Battle of the Astronomy Tower and Battle of Hogwarts)"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/pomona.jpg"
+      "image": "img/characters/pomona.jpg"
     },
     {
       "id": 711,
@@ -11426,7 +11426,7 @@ export default {
         "Advance Guard"
       ],
       "books_featured_in": [5, 6, 7],
-      "image": "img/charters/nymphadora.jpg"
+      "image": "img/characters/nymphadora.jpg"
     },
     {
       "id": 720,
@@ -11467,7 +11467,7 @@ export default {
         "Trelawney family"
       ],
       "books_featured_in": [3, 4, 5, 6, 7],
-      "image": "img/charters/sybiltrelawney.jpg"
+      "image": "img/characters/sybiltrelawney.jpg"
 
     },
     {
@@ -11501,7 +11501,7 @@ export default {
       "house": null,
       "associated_groups": ["Hogwarts Express", "Albus Dumbledore", "Ottaline Gambol"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/brujacarrito.jpg"
+      "image": "img/characters/brujacarrito.jpg"
 
     },
     {
@@ -11567,7 +11567,7 @@ export default {
       "house": "Slytherin",
       "associated_groups": [],
       "books_featured_in": [5, 6, 7],
-      "image": "img/charters/doloresumbridge.jpg"
+      "image": "img/characters/doloresumbridge.jpg"
     },
     {
       "id": 728,
@@ -11648,7 +11648,7 @@ export default {
       "house": null,
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [3, 4, 5, 6],
-      "image": "img/charters/septima.jpg"
+      "image": "img/characters/septima.jpg"
     },
     {
       "id": 733,
@@ -11819,7 +11819,7 @@ export default {
         "Daily Prophet"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/ginnyweasly.jpg"
+      "image": "img/characters/ginnyweasley.jpg"
     },
     {
       "id": 744,
@@ -11843,7 +11843,7 @@ export default {
         "Gryffindor"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/mollyweasly.jpg"
+      "image": "img/characters/mollyweasly.jpg"
     },
     {
       "id": 745,
@@ -11868,7 +11868,7 @@ export default {
         "Gryffindor Quidditch team"
       ],
       "books_featured_in": [7],
-      "image": "img/charters/rose.jpg"
+      "image": "img/characters/rose.jpg"
     },
     {
       "id": 746,
@@ -11885,7 +11885,7 @@ export default {
       "house": "Septimus Weasley (paternal great-grandfather)",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Weasley family", "Delacour family", "Prewett family"],
       "books_featured_in": [7],
-      "image": "img/charters/victoire.jpg"
+      "image": "img/characters/victoire.jpg"
     },
     {
       "id": 747,
@@ -11955,7 +11955,7 @@ export default {
       "house": null,
       "associated_groups": ["Crouch family"],
       "books_featured_in": [4],
-      "image": "img/charters/winky.jpg"
+      "image": "img/characters/winky.jpg"
     },
     {
       "id": 751,
@@ -12065,7 +12065,7 @@ export default {
         "Dumbledore family"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/charters/dumbledore.jpg"
+      "image": "img/characters/dumbledore.jpg"
 
     }
   ],
@@ -16313,5 +16313,67 @@ export default {
       "description": "They are cunning and ambitious.",
       "image": "img/houses/slytherin.jpg"
     }
+  ],
+  species: [
+    'Human',
+    'Peacock',
+    'Acromantula',
+    'Pygmy Puff',
+    'Centaur',
+    'Rabbit',
+    'Human (formerly)',
+    'Goblin',
+    'Hippogriff',
+    'Humans',
+    'Half-Kneazle',
+    'Ghost',
+    'House-elf',
+    'Great grey owl',
+    'Boarhound',
+    'Phoenix',
+    'Human (Goblin ancestry)',
+    'Three-headed dog',
+    'Part-troll human (possibly)',
+    'Giant',
+    'Gorilla',
+    'Werewolf (formerly Human)',
+    'Human (Seer)',
+    'Half-Human/Half-Giant',
+    'Shrunken Head',
+    'Screech owl',
+    'Mice',
+    'House-elves',
+    'Human (Metamorphmagus)',
+    'Human or Giant',
+    'Part-Kneazle',
+    'Part-Kneazle cat',
+    'Poltergeist',
+    'Scops owl',
+    'Dog (breed: bulldog)',
+    'Vampire',
+    'Owl',
+    'Thestral',
+    'Toad',
+    'Werewolf',
+    'Ghoul',
+    'Human (Werewolf traits)',
+    'Veela or part-Veela',
+    'Half-Human',
+    'Veela',
+    '1/4 Veela',
+    'Human (Veela ancestry)',
+    'Portrait; formerly Human',
+    'Humans (formerly)',
+    'Snowy Owl',
+    'Half-human/Half-giant',
+    'Human or Giantess',
+    'Selkie (Merpeople)',
+    'Human (Maledictus affliction; formerly)',
+    'Norwegian Ridgeback',
+    'Cat',
+    'Mermaid',
+    'Basilisk',
+    'Deity',
+    'Portrait'
   ]
 }

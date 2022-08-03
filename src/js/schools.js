@@ -1,13 +1,5 @@
 import data from "../data/harrypotter/data.js";
 
-// TODO function books HarryPotter
-const toTurn = document.querySelectorAll('.toTurn');
-toTurn.forEach((item) => {
-  item.addEventListener('click', function (){
-    his.classList.toggle('is-flipped');
-  })
-})
-
 const howardSchools = document.getElementById('schoolCard');
 const { houses } = data;
 
@@ -26,7 +18,7 @@ export const schoolsData = (ordered = 'asc') => {
     const { id, house, day, founder, description, image } = item;
     howardSchools.innerHTML +=
       `<div class="col-3">
-        <div class="card-schools">
+        <div class="card-schools toTurn">
           <div class="card-sch-content" data-id="fun-${id}">
 
             <img src="${image}" class="img-schools" alt="schools">

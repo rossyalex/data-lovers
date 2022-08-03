@@ -3,10 +3,9 @@
 import { funData } from "./js/fun.js";
 import {showBooks} from "./js/books.js";
 import harryJson from "./data/harrypotter/harry.json" assert { type: "json" };
-
-// import data from houses
 import { schoolsData } from "./js/schools.js";
-
+import { charactersData } from "./js/characters.js";
+import { speciesData } from "./js/species.js";
 
 
 const home = document.getElementById('home');
@@ -62,10 +61,16 @@ schoolsSelect.addEventListener('change', schoolsChange);
 
 // Function execute card fun facts
 funData();
-showBooks(harryJson.books);
+// showBooks(harryJson.books);
 
 // Function execute card Howard Schools
 schoolsData();
+
+// Function execute get data of all species characters
+speciesData();
+
+// Function execute card of characters
+charactersData();
 
 /**
  * Función para ocultar todas las paginas
@@ -111,9 +116,19 @@ menuIcon.addEventListener("click", function(){
 
 function schoolsChange() {
   const valueSchools = schoolsSelect.options[schoolsSelect.selectedIndex].value;
-  console.log(valueSchools);
   schoolsData(valueSchools);
 }
+
+/**
+ * Función que agrega evento de click a Howard School
+ * @type {NodeListOf<Element>}
+ */
+const toTurn = document.querySelectorAll('.toTurn');
+toTurn.forEach((item) => {
+  item.addEventListener('click', function (){
+    this.classList.toggle('is-flipped');
+  })
+})
 
 
 
