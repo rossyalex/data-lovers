@@ -58,6 +58,7 @@ export function sortBooks(order) {
   printBooks(bookSorted);
 }
 
+<<<<<<< HEAD
 
 //Funcion para sort por año
 
@@ -68,4 +69,13 @@ export function sortBooksYear(order) {
   });
 
   printBooks(bookSorted);
+=======
+export function sortYearBook(order){
+  const bookYear = data.books.sort((a,b) => {
+    if(order === "minor") return a.day.localeCompare(b.day);
+    else if (order === "older") return b.day.localeCompare(a.day);
+  })
+
+  printBooks(bookYear);
+>>>>>>> main
 }
