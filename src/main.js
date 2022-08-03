@@ -1,7 +1,11 @@
 // import { example } from './data.js';
 // import data from './data/harrypotter/data.js';
 import { funData } from "./js/fun.js";
-import {showBooks, sortBooks} from "./js/books.js";
+<<<<<<< HEAD
+import {showBooks, sortBooks, sortBooksYear} from "./js/books.js";
+=======
+import {showBooks, sortBooks, sortYearBook} from "./js/books.js";
+>>>>>>> main
 
 
 // import data from houses
@@ -95,6 +99,11 @@ function funChange() {
 
 function bookChange(e) {
   sortBooks(e.target.value);
+<<<<<<< HEAD
+  sortBooksYear(e.target.value);
+=======
+  sortYearBook(e.target.value);
+>>>>>>> main
 }
 
 //Menú desplegable

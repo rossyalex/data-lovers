@@ -47,23 +47,6 @@ function clear() {
   document.getElementById("books-card").innerHTML = "";
 }
 
-//Funcion para filtrar por año
-// @param {"1997", "1998", "1999", "2000", "2003", "2005", "2007", "2016"} releaseDay
-
-// function filterByYear(releaseDay){
-//   return harryJson.books.filter(
-//     (books) => books.releaseDay === releaseDay
-//   );
-// }
-
-// document
-//   .getElementById("yearFilter")
-//   .addEventListener("change", function(e){
-//     const filterBooksByYear= filterByYear(e.target.value);
-//     clear();
-//     showBooks(filterBooksByYear);
-//   })
-
 //Funcion para sort alfabeticamente
 
 export function sortBooks(order) {
@@ -73,4 +56,26 @@ export function sortBooks(order) {
   });
 
   printBooks(bookSorted);
+}
+
+<<<<<<< HEAD
+
+//Funcion para sort por año
+
+export function sortBooksYear(order) {
+  const bookSorted = data.books.sort((a, b) => {
+    if (order === "minor") return a.releaseDay.localeCompare(b.releaseDay);
+    else if (order === "older") return b.releaseDay.localeCompare(a.releaseDay);
+  });
+
+  printBooks(bookSorted);
+=======
+export function sortYearBook(order){
+  const bookYear = data.books.sort((a,b) => {
+    if(order === "minor") return a.day.localeCompare(b.day);
+    else if (order === "older") return b.day.localeCompare(a.day);
+  })
+
+  printBooks(bookYear);
+>>>>>>> main
 }
