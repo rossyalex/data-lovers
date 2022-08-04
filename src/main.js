@@ -1,8 +1,4 @@
-// import { example } from './data.js';
-// import data from './data/harrypotter/data.js';
 import { funData } from "./js/fun.js";
-import {showBooks} from "./js/books.js";
-import harryJson from "./data/harrypotter/harry.json" assert { type: "json" };
 import {showBooks, sortBooks, sortBooksYear} from "./js/books.js";
 
 
@@ -70,7 +66,7 @@ showBooks();
 // Function execute card Howard Schools
 schoolsData();
 
-// Function execute get data of all species characters
+// Function execute get data of all species in selector
 speciesData();
 
 // Function execute card of characters
