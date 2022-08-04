@@ -35,7 +35,7 @@
         <li class="bar"> | </li>
         <li id="books-nav" data-id="books"><a href="#">Books</a></li>
         <li class="bar"> | </li>
-        <li id="school-nav" data-id="school"><a href="#">Howard Schools</a></li>
+        <li id="school-nav" data-id="school"><a href="#">Hogwarts Schools</a></li>
         <li class="bar"> | </li>
         <li id="potions-nav" data-id="potions"><a href="#">Potions and Spells</a></li>
       </ul>
@@ -129,7 +129,7 @@
               <img alt="howard-schools" class="img-main" src="img/houses/homesh.jpg" />
             </div>
             <div class="col-6 center">
-              <h1 class="text-top">Howard Schools</h1>
+              <h1 class="text-top">Hogwarts Schools</h1>
               <br>
               <p>
                 In order to be invited to study at Hogwarts Schools of Witchcraft
@@ -227,16 +227,6 @@
         <section class="center">
           <div class="sorter-funfacts">
             <label class="labelname">
-              Character:
-              <select name="character" class="filter-alphabet">
-                <option>-</option>
-                <option value="character">Character</option>
-                <!-- TODO Esto se realizara mediante manipulación del Dom array de especie-->
-              </select>
-            </label>
-          </div>
-          <div class="sorter-funfacts">
-            <label class="labelname">
               Gender:
               <select name="alphabet" class="filter-alphabet">
                 <option>-</option>
@@ -250,23 +240,26 @@
               Study House:
               <select name="alphabet" class="filter-alphabet">
                 <option>-</option>
-                <option value="schools">Gryffindor</option>
-                <option value="schools">Ravenclaw</option>
-                <option value="schools">Hufflepuff</option>
-                <option value="schools">Slytherin</option>
+                <option value="Gryffindor">Gryffindor</option>
+                <option value="Ravenclaw">Ravenclaw</option>
+                <option value="Hufflepuff">Hufflepuff</option>
+                <option value="Slytherin">Slytherin</option>
               </select>
             </label>
           </div>
           <div class="sorter-funfacts">
             <label class="labelname">
-              Sort:
-              <select name="species" class="filter-alphabet">
-                <option value="A-Z">A - Z</option>
-                <option value="Z-A">Z - A</option>
+              Species:
+              <select id="species" name="species" class="filter-alphabet">
+                <option>-</option>
               </select>
             </label>
           </div>
         </section>
+
+        <div id="charactersCard" class="row">
+
+        </div>
       </div>
     </div>
     <!-- Books Page -->
@@ -311,7 +304,7 @@
       <div class="bodypage">
         <section class="title-section">
           <div>
-            <h1 class="titles">Howard Schools</h1>
+            <h1 class="titles">Hogwarts Schools</h1>
             <p class="t-paragraph">
               The house you belong to says a lot about your personality.
               You want to know more ?</p>
