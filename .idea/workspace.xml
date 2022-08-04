@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f06221ca-99d7-4ec8-9d52-290ee0df75a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/characters/ronan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/rufus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/smith.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/stanley.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/potion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/harrypotter/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/harrypotter/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/characters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -3,6 +3,10 @@
 import { funData } from "./js/fun.js";
 import {showBooks} from "./js/books.js";
 import harryJson from "./data/harrypotter/harry.json" assert { type: "json" };
+import {showBooks, sortBooks, sortBooksYear} from "./js/books.js";
+
+
+// import data from houses
 import { schoolsData } from "./js/schools.js";
 import { charactersData } from "./js/characters.js";
 import { speciesData } from "./js/species.js";
@@ -61,7 +65,7 @@ schoolsSelect.addEventListener('change', schoolsChange);
 
 // Function execute card fun facts
 funData();
-// showBooks(harryJson.books);
+showBooks();
 
 // Function execute card Howard Schools
 schoolsData();
@@ -98,9 +102,9 @@ function funChange() {
   funData(value);
 }
 
-function bookChange() {
-  const value = bookSelect.options[bookSelect.selectedIndex].value;
-  bookOrder(value);
+function bookChange(e) {
+  sortBooks(e.target.value);
+  sortBooksYear(e.target.value);
 }
 
 //Menú desplegable
@@ -116,6 +120,7 @@ menuIcon.addEventListener("click", function(){
 
 function schoolsChange() {
   const valueSchools = schoolsSelect.options[schoolsSelect.selectedIndex].value;
+  console.log(valueSchools);
   schoolsData(valueSchools);
 }
 

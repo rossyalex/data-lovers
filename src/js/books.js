@@ -10,8 +10,14 @@ function addEffectToBooks() {
   });
 }
 
+//Mostrar libros
+export function showBooks() {
+  printBooks(data.books);
+}
+
 //Función mostrar books
-export function showBooks(books) {
+function printBooks(books) {
+  clear();
   const bookList = document.getElementById("books-card");
   books.map((book) => {
     const newBook = `<div class="col-3">
@@ -34,34 +40,32 @@ export function showBooks(books) {
     bookList.insertAdjacentHTML("beforeend", newBook);
   });
   addEffectToBooks();
-  clear();
 }
 
 //Limpia el div
-function clear(){
-  document.getElementById("books-card").innerHTML="";
+function clear() {
+  document.getElementById("books-card").innerHTML = "";
 }
-
-//Funcion para filtrar por año
-// @param {"1997", "1998", "1999", "2000", "2003", "2005", "2007", "2016"} releaseDay
-
-// function filterByYear(releaseDay){
-//   return harryJson.books.filter(
-//     (books) => books.releaseDay === releaseDay
-//   );
-// }
-
-// document
-//   .getElementById("yearFilter")
-//   .addEventListener("change", function(e){
-//     const filterBooksByYear= filterByYear(e.target.value);
-//     clear();
-//     showBooks(filterBooksByYear);
-//   })
 
 //Funcion para sort alfabeticamente
 
-function sortBooks(){
-  const bookList = document.getElementById("books-card");
-   document.getElementById("books-card").innerHTML=bookList.sort();
+export function sortBooks(order) {
+  const bookSorted = data.books.sort((a, b) => {
+    if (order === "asc") return a.title.localeCompare(b.title);
+    else if (order === "desc") return b.title.localeCompare(a.title);
+  });
+
+  printBooks(bookSorted);
+}
+
+
+//Funcion para sort por año
+
+export function sortBooksYear(order) {
+  const bookSorted = data.books.sort((a, b) => {
+    if (order === "minor") return a.releaseDay.localeCompare(b.releaseDay);
+    else if (order === "older") return b.releaseDay.localeCompare(a.releaseDay);
+  });
+
+  printBooks(bookSorted);
 }
