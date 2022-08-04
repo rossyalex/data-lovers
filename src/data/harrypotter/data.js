@@ -6702,7 +6702,8 @@ export default {
         "Gryffindor Quidditch team",
         "Dumbledore's Army"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/deanthomas.jpg"
     },
     {
       "id": 398,
@@ -6734,7 +6735,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Thomas family"],
-      "books_featured_in": [5, 7]
+      "books_featured_in": [5, 7],
+      "image": "img/characters/deanthomas.jpg"
     },
     {
       "id": 400,
@@ -6814,7 +6816,8 @@ export default {
       "patronus": "Non-corporeal",
       "house": null,
       "associated_groups": ["Leaky Cauldron"],
-      "books_featured_in": [1, 3, 6, 7]
+      "books_featured_in": [1, 3, 6, 7],
+      "image": "img/characters/tomriderlordvoldermort.jpg"
     },
     {
       "id": 405,
@@ -6830,7 +6833,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Tonks family", "Order of the Phoenix (indirectly)"],
-      "books_featured_in": [5, 7]
+      "books_featured_in": [5, 7],
+      "image": "img/characters/edward.jpg"
     },
     {
       "id": 406,
@@ -6862,7 +6866,8 @@ export default {
       "patronus": "None",
       "house": null,
       "associated_groups": ["Travers family", "Death Eaters", "Lord Voldemort", "Death Eater controlled Ministry of Magic"],
-      "books_featured_in": [4, 7]
+      "books_featured_in": [4, 7],
+      "image": "img/characters/travers.jpg"
     },
     {
       "id": 408,
@@ -6894,7 +6899,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Algie (formerly)", "Neville Longbottom", "Frog Choir (formerly)"],
-      "books_featured_in": [1, 3, 4, 5, 6]
+      "books_featured_in": [1, 3, 4, 5, 6],
+      "image": "img/characters/trevor.jpg"
     },
     {
       "id": 410,
@@ -7086,7 +7092,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": [],
-      "books_featured_in": [1, 3, 7]
+      "books_featured_in": [1, 3, 7],
+      "image": "img/characters/cassius.jpg"
     },
     {
       "id": 459,
@@ -7155,7 +7162,9 @@ export default {
         "Slytherin Quidditch team",
         "Inquisitorial Squad"
       ],
-      "books_featured_in": [3, 4, 5]
+      "books_featured_in": [3, 4, 5],
+      "image": "img/characters/cassius.jpg"
+
     },
     {
       "id": 464,
@@ -7246,7 +7255,9 @@ export default {
         "Hogwarts School of Witchcraft and Wizardry",
         "Gryffindor"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/arthurweasley.jpg"
+
     },
     {
       "id": 470,
@@ -7287,7 +7298,8 @@ export default {
         "Romanian Dragon Sanctuary",
         "Order of the Phoenix"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/charles.jpg"
     },
     {
       "id": 472,
@@ -7314,7 +7326,8 @@ export default {
         "Weasley family",
         "Prewett family"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/fred.jpg"
     },
     {
       "id": 473,
@@ -7340,7 +7353,8 @@ export default {
         "Prewett family",
         "Weasleys' Wizard Wheezes"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/george.jpg"
     },
     {
       "id": 474,
@@ -7380,7 +7394,8 @@ export default {
         "Department of International Magical Cooperation (formerly)",
         "Department of Magical Transportation"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/percy.jpg"
     },
     {
       "id": 476,
@@ -7411,7 +7426,8 @@ export default {
         "Weasleys' Wizard Wheezes",
         "Chudley Cannons"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/ronweasley.jpg"
     },
     {
       "id": 477,
@@ -7436,7 +7452,8 @@ export default {
         "Delacour family",
         "Circle of Khanna"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/billweasley.jpg"
     },
     {
       "id": 478,
@@ -7619,7 +7636,8 @@ export default {
         "Order of the Phoenix (during the Battle of Hogwarts)",
         "Dumbledore's Army (during the Battle of Hogwarts"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/oliver.jpg"
     },
     {
       "id": 489,
@@ -7793,7 +7811,8 @@ export default {
         "Dumbledore's Army",
         "Leaky Cauldron"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/hannahabbott.jpg"
     },
     {
       "id": 499,
@@ -7873,7 +7892,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Bagshot family", "Dumbledore family", "Potter family", "Hogwarts School of Witchcraft and Wizardry"],
-      "books_featured_in": [1, 3, 7]
+      "books_featured_in": [1, 3, 7],
+      "image": "img/characters/bathilda.jpg"
     },
     {
       "id": 504,
@@ -7943,7 +7963,8 @@ export default {
         "Gryffindor",
         "Gryffindor Quidditch team"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/katie.jpg"
     },
     {
       "id": 508,
@@ -8092,7 +8113,8 @@ export default {
       "patronus": null,
       "house": "Hufflepuff",
       "associated_groups": ["Bones family", "Hogwarts School of Witchcraft and Wizardry", "Hufflepuff", "Dumbledore's Army"],
-      "books_featured_in": [1, 5, 6]
+      "books_featured_in": [1, 5, 6],
+      "image": "img/characters/susanbones.jpg"
     },
     {
       "id": 517,
@@ -8140,7 +8162,8 @@ export default {
       "patronus": "Non-corporeal",
       "house": null,
       "associated_groups": ["Daily Prophet", "Witch Weekly", "The Quibbler", "Order of the Phoenix (indirectly)"],
-      "books_featured_in": [4, 5, 6, 7]
+      "books_featured_in": [4, 5, 6, 7],
+      "image": "img/characters/ritaskeeter.jpg"
     },
     {
       "id": 520,
@@ -8172,7 +8195,8 @@ export default {
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
       "associated_groups": ["Brown family", "Dumbledore's Army", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/lavender.jpg"
     },
     {
       "id": 522,
@@ -8370,7 +8394,8 @@ export default {
         "Ravenclaw",
         "Ravenclaw Quidditch team"
       ],
-      "books_featured_in": [3, 4, 5, 6, 7]
+      "books_featured_in": [3, 4, 5, 6, 7],
+      "image": "img/characters/chochang.jpg"
     },
     {
       "id": 534,
@@ -8418,7 +8443,8 @@ export default {
       "patronus": "Non-corporeal",
       "house": "Ravenclaw",
       "associated_groups": ["Clearwater family", "Hogwarts School of Witchcraft and Wizardry", "Ravenclaw"],
-      "books_featured_in": [2, 3, 7]
+      "books_featured_in": [2, 3, 7],
+      "image": "img/characters/penelope.jpg"
     },
     {
       "id": 537,
@@ -8601,7 +8627,8 @@ export default {
         "Order of the Phoenix",
         "Gringotts Wizarding Bank"
       ],
-      "books_featured_in": [4, 5, 6, 7]
+      "books_featured_in": [4, 5, 6, 7],
+      "image": "img/characters/fleurDelacour.jpg"
     },
     {
       "id": 548,
@@ -8617,7 +8644,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Delacour family", "Beauxbatons Academy of Magic"],
-      "books_featured_in": [4, 5, 6, 7]
+      "books_featured_in": [4, 5, 6, 7],
+      "image": "img/characters/gabrielle.jpg"
     },
     {
       "id": 549,
@@ -8777,7 +8805,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Dursley family"],
-      "books_featured_in": [1, 3, 5]
+      "books_featured_in": [1, 3, 5],
+      "image": "img/characters/marjorie.jpg"
     },
     {
       "id": 559,
@@ -8793,7 +8822,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Evans family", "Dursley family"],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/petuniadursley.jpg"
     },
     {
       "id": 560,
@@ -8879,7 +8909,8 @@ export default {
       "patronus": null,
       "house": "Gryffindor",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor Tower", "Gryffindor"],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/hermionegranger.jpg"
     },
     {
       "id": 566,
