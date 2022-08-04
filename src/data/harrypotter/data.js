@@ -5907,7 +5907,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Riddle family"],
-      "books_featured_in": [2, 4, 5, 6]
+      "books_featured_in": [2, 4, 5, 6],
+      "image": "img/characters/ronan.jpg"
     },
     {
       "id": 352,
@@ -6003,7 +6004,8 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Forbidden Forest Centaur colony", "Hogwarts School of Witchcraft and Wizardry"],
-      "books_featured_in": [1, 5, 7]
+      "books_featured_in": [1, 5, 7],
+      "image": "img/characters/ronan.jpg"
     },
     {
       "id": 358,
@@ -6210,7 +6212,8 @@ export default {
       "patronus": "Non-corporeal",
       "house": null,
       "associated_groups": ["British Ministry of Magic", "Auror Office"],
-      "books_featured_in": [5, 6, 7]
+      "books_featured_in": [5, 6, 7],
+      "image": "img/characters/rufus.jpg"
     },
     {
       "id": 370,
@@ -6250,7 +6253,8 @@ export default {
         "Hogwarts School of Witchcraft and Wizardry",
         "Potterwatch"
       ],
-      "books_featured_in": [5, 6, 7]
+      "books_featured_in": [5, 6, 7],
+      "image": "img/characters/kingsleyshacklebolt.jpg"
     },
     {
       "id": 372,
@@ -6282,7 +6286,8 @@ export default {
       "patronus": "Non-corporeal",
       "house": null,
       "associated_groups": ["Knight Bus", "Death Eaters (Imperiused)"],
-      "books_featured_in": [3, 4, 5, 6, 7]
+      "books_featured_in": [3, 4, 5, 6, 7],
+      "image": "img/characters/stanley.jpg"
     },
     {
       "id": 374,
@@ -6429,7 +6434,8 @@ export default {
         "Hufflepuff",
         "Hufflepuff Quidditch team"
       ],
-      "books_featured_in": [5, 6, 7]
+      "books_featured_in": [5, 6, 7],
+      "image": "img/characters/smith.jpg"
     },
     {
       "id": 382,
@@ -6456,7 +6462,8 @@ export default {
         "Lord Voldemort (formerly)",
         "Death Eaters (defected)"
       ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
+      "image": "img/characters/severussnape.jpg"
     },
     {
       "id": 383,

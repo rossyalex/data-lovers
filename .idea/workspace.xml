@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a20f0e2-3bd7-459e-b591-03c99c51795d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/characters/bathilda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/cassius.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/charles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/deanthomas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/edward.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/fred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/gabrielle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/george.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/katie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/lavender.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/marjorie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/oliver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/penelope.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/percy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/travers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/characters/trevor.jpg" afterDir="false" />
+    <list default="true" id="f06221ca-99d7-4ec8-9d52-290ee0df75a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/characters/ronan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/characters/rufus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/characters/smith.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/characters/stanley.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/harrypotter/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/harrypotter/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/characters.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +44,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img/characters" />
