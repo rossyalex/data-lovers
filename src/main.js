@@ -1,7 +1,7 @@
 // import { example } from './data.js';
 // import data from './data/harrypotter/data.js';
 import { funData } from "./js/fun.js";
-import {showBooks, sortBooks, sortBooksYear} from "./js/books.js";
+import {showBooks, sortBooks, } from "./js/books.js";
 
 
 // import data from houses
@@ -62,6 +62,8 @@ schoolsSelect.addEventListener('change', schoolsChange);
 
 // Function execute card fun facts
 funData();
+
+// Funcion que ejecuta mostrar libros
 showBooks();
 
 // Function execute card Howard Schools
@@ -74,6 +76,7 @@ schoolsData();
 function pageShow() {
   const idSend = this.getAttribute('data-id');
   const pages = [home, fun, characters, books, school, potions];
+  console.log("idSend",idSend);
   pages.forEach(item => {
     const id = item.getAttribute('id');
     if (id !== idSend) {
@@ -95,7 +98,7 @@ function funChange() {
 
 function bookChange(e) {
   sortBooks(e.target.value);
-  sortBooksYear(e.target.value);
+  // sortBooksYear(e.target.value);
 }
 
 //Menú desplegable
