@@ -342,19 +342,18 @@
           <div class="sorter-funfacts">
             <label class="labelname">
               Potions or Spells:
-              <select name="species" class="filter-alphabet">
-                <option>-</option>
-                <option value="filter">Potions</option>
-                <option value="filter">Spells</option>
+              <select id="selectPotionSpell" class="filter-alphabet">
+                <option value="potions">Potions</option>
+                <option value="spells">Spells</option>
               </select>
             </label>
           </div>
           <div class="sorter-funfacts">
             <label class="labelname">
               Sort:
-              <select name="species" class="filter-alphabet">
-                <option value="A-Z">A - Z</option>
-                <option value="Z-A">Z - A</option>
+              <select name="sortPotionSpell" class="filter-alphabet">
+                <option value="asc">A - Z</option>
+                <option value="desc">Z - A</option>
               </select>
             </label>
           </div>
@@ -370,29 +369,9 @@
         <input class="btnbuscar" type="submit" value="Buscar">-->
 
         <!--Section card -->
-
-        <div class="scene">
-          <div class="card-potion">
-            <div class="card_face card-front">
-              <img src="img/spellsandpotion/spells.jpg" class="img-spell" alt="spell">
-            </div>
-            <div class="card_face card-back">
-              <p>Soy un hechizo shazam!!!!</p>
-            </div>
-          </div>
+        <div class="row" id="potions-card">
         </div>
-
-        <div class="scene">
-          <div class="card-potion">
-            <div class="card_face card-front">
-              <img src="img/spellsandpotion/spells.jpg" class="img-spell" alt="spell">
-            </div>
-            <div class="card_face card-back">
-              <p>Soy un hechizo shazam!!!!</p>
-            </div>
-          </div>
-        </div>
-
+        
       </div>
     </div>
     <!--Footer Section-->
