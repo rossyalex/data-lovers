@@ -1,12 +1,11 @@
-// import { example } from './data.js';
-// import data from './data/harrypotter/data.js';
 import { funData } from "./js/fun.js";
 import {showBooks, sortBooks, } from "./js/books.js";
 
 
 // import data from houses
 import { schoolsData } from "./js/schools.js";
-
+import { charactersData } from "./js/characters.js";
+import { speciesData } from "./js/species.js";
 
 
 const home = document.getElementById('home');
@@ -69,6 +68,12 @@ showBooks();
 // Function execute card Howard Schools
 schoolsData();
 
+// Function execute get data of all species in selector
+speciesData();
+
+// Function execute card of characters
+charactersData();
+
 /**
  * Función para ocultar todas las paginas
  * menos la que elijo darle click
@@ -117,6 +122,17 @@ function schoolsChange() {
   console.log(valueSchools);
   schoolsData(valueSchools);
 }
+
+/**
+ * Función que agrega evento de click a Howard School
+ * @type {NodeListOf<Element>}
+ */
+const toTurn = document.querySelectorAll('.toTurn');
+toTurn.forEach((item) => {
+  item.addEventListener('click', function (){
+    this.classList.toggle('is-flipped');
+  })
+})
 
 
 
