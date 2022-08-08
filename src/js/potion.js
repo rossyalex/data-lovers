@@ -29,11 +29,11 @@ function printPotions(potions) {
       <div class="scene">
         <div class="card">
             <div class="card_face card-front">
-                <img src="img/spellsandpotion/spells.jpg" class="img-spell" alt="spell">
+                <img src="img/spellsandpotion/spells.jpg" class="style-potion" alt="spell">
+                <h3 style="margin: 10px">Name</h3>  
+            <p>${potions.name}</p>
             </div>
             <div class="card_face card-back">
-            <h3>Name</h3>  
-            <p>${potions.name}</p>
             <h3>Description</h3>  
             <p>${potions.description}</p>
             </div>
@@ -54,11 +54,11 @@ function printSpells(spells) {
       <div class="scene">
         <div class="card">
             <div class="card_face card-front">
-                <img src="img/spellsandpotion/potions.jpg" class="img-spell" alt="spell">
+                <img src="img/spellsandpotion/potions.jpg" class="style-potion" alt="spell">
+                <h3 style="margin: 10px">Name</h3>  
+            <p>${spells.name}</p>
             </div>
             <div class="card_face card-back">
-            <h3>Name</h3>  
-            <p>${spells.name}</p>
             <h3>Other Name</h3>  
             <p>${spells.other_name}</p>
             <h3>Pronunciation</h3>  
@@ -99,8 +99,8 @@ selectPagePotion.addEventListener("change", (e) => {
 
 //NO FUNCIONA
 export function sortPotions(order) {
-  const sortByType = document.getElementById("sortPotionSpell").value;
-  const filterType = filterByPotionsSepells(sortByType);
+  const currentType = document.getElementById("selectPotionSpell").value;
+  const filterType = filterByPotionsSepells(currentType);
     if (order === "asc"){
       filterType.sort((a, b) => {
         return a.name.localeCompare(b.name);
@@ -110,6 +110,6 @@ export function sortPotions(order) {
         return b.name.localeCompare(a.name);
     });
   };
-  printPotions(sortByType);
+  return currentType;
 }
 

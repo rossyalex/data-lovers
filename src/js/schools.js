@@ -20,7 +20,6 @@ export const schoolsData = (ordered = 'asc') => {
       `<div class="col-3">
         <div class="card-schools toTurn">
           <div class="card-sch-content" data-id="fun-${id}">
-
             <img src="${image}" class="img-schools" alt="schools">
           </div>
         </div>

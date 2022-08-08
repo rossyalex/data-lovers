@@ -12167,7 +12167,7 @@ export default {
       "other_name": "Summoning Charm",
       "pronunciation": "Various, including: AK-ee-oh or AK-see-oh , AK-see-oh , AS-see-oh (US), and AT-chee-oh (Anglo-Catholic pronunciation)",
       "spell_type": "Charm",
-      "description": "Summons an object towards the caster. It is able to summon objects in direct line of sight of the caster, as well as things out of view, by calling the object aloud after the incantation (unless the spell is casted nonverbally). This spell needs thought behind it, and the object must be clear in the casters mind before trying to summon it. The caster doesn't necessarily need to know the location of the target if they say the name of the object to be summoned, such as when Hermione Granger summoned some books from Dumbledore's office simply by saying \"Accio Horcrux books!\" while in Gryffindor Tower.",
+      "description": "Summons an object towards the caster. It is able to summon objects in direct line of sight of the caster, as well as things out of view, by calling the object aloud after the incantation (unless the spell is casted nonverbally).",
       "mention": "Harry Potter summoned his broom to complete the first task of the Triwizard Tournament in 1994, and to summon the Portkey to escape Voldemort and the Death Eaters in the Little Hangleton Graveyard in 1995. Also, in the Battle of the Seven Potters Harry summoned Hagrid when he fell. Molly Weasley used it to get the twins' candy. The twins used it to summon their brooms from Dolores Umbridge's office",
       "etymology": "The Latin word accio means \"I call\" or \"I summon\".",
       "note": null

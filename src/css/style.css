@@ -78,10 +78,10 @@ nav {
 .bar {
   color: #d1d0d5;
 }
-.nav-links li a.active {
+/* .nav-links li a.active {
   background: #45413e;
   opacity: 85%;
-}
+} */
 .nav-links li a:hover:not(.active) {
   background: #e19e09;
   opacity: 81%;
@@ -326,6 +326,28 @@ p {
   .startstyle1{
     top: 10%;
   }
+    ul {
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 14px;
+  }
+  li a:hover,
+  li a.active {
+    background: none;
+  }
+  .footer_img {
+    height: 4vh;
+    border-radius: 80%;
+  }
 }
 
 @media only screen and (min-width: 45em) {/* 720px */
@@ -406,13 +428,8 @@ p {
 
 /*MediaQuery de footer*/
 @media (max-width: 858px) {
-  /* .checkbtn {
-    display: block;
-  } */
+
   ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
     top: 50px;
     left: -100%;
     text-align: center;
@@ -430,9 +447,6 @@ p {
   li a.active {
     background: none;
   }
-  /* #check:checked ~ ul {
-    left: 0;
-  } */
   .footer_img {
     height: 4vh;
     border-radius: 80%;
@@ -496,13 +510,14 @@ p {
   margin-bottom: 0;
   width: 100%;
   margin-top: auto;
+  float:right;
 }
 
 .footer_text {
   text-align: start;
   margin: 0;
   font-family: "harryp";
-  font-size: 2vw;
+  font-size: 2vh;
 }
 
 .footer_img {
@@ -517,7 +532,7 @@ p {
   width: auto;
   list-style-type: none;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 2vh;
 }
 
 .social_media_icons {
@@ -587,8 +602,15 @@ p {
 
 .img-spell {
   width: 250px;
-  height: 350px;
+  height: 282px;
   border-radius: 6px;
+}
+
+.style-potion {
+    width: 250px;
+    height: 306px;
+    border-radius: 6px;
+    margin-top: 17px;
 }
 
 .img-spell2 {
@@ -734,4 +756,16 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* dialog*/
+dialog::backdrop {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    rgba(0, 0, 0, 0.3) 1px,
+    rgba(0, 0, 0, 0.3) 20px
+  );
+  backdrop-filter: blur(3px);
 }
