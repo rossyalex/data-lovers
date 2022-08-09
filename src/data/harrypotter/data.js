@@ -8997,8 +8997,7 @@ export default {
       "patronus": null,
       "house": "Gryffindor",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor Tower", "Gryffindor"],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/characters/hermionegranger.jpg"
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
     {
       "id": 566,

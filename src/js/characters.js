@@ -108,14 +108,18 @@ export const charactersData = () => {
     const imgAlt = 'img/hat.png';
     charactersHtml.innerHTML +=
       `<div class="col-3">
-        <div class="card-fun">
-          <div class="card-fun-content" data-id="fun-${id}">
-            <h3 class="center">${name} - ${species}</h3>
-            <!-- Condicion si birth es null entonces deja vacío de lo contrario carga birth -->
-            <h4 class="center">${birth === null ? '' : birth}</h4>
-            <p class="p-card-fun center">${house === null ? '' : house}</p>
-            <!-- Condicion si image es undefined (No existe imagen) entonces deja hat.png de lo contrario carga image -->
-            <img class="card-characters-img center" src="${image === undefined ? imgAlt : image}" alt="${name}">
+          <div class="scene">
+           <div class="card toTurn">
+              <div class="card_face card-front" data-id="fun-${id}">
+                <h3 class="center">${name} - ${species}</h3>
+                <!-- Condicion si birth es null entonces deja vacío de lo contrario carga birth -->
+                <h3> Birthday </h3>
+                <h4 class="center">${birth === null ? 'Not info' : birth}</h4>
+                <h3>House name</h3>
+                <p class="p-card-fun center">${house === null ? 'Not info' : house}</p>
+                <!-- Condicion si image es undefined (No existe imagen) entonces deja hat.png de lo contrario carga image -->
+                <img class="card-characters-img center" src="${image === undefined ? imgAlt : image}" alt="${name}">
+            </div>
           </div>
         </div>
       </div>`;
