@@ -3397,7 +3397,7 @@ export default {
       "house": "Gryffindor",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [1, 2, 5, 7],
-      "image": "img/characters/godric.jpg"
+      "image": "img/characters/godric.webp"
     },
     {
       "id": 203,
@@ -3453,7 +3453,7 @@ export default {
         "Harry Potter"
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7],
-      "image": "img/characters/rubeushagrig.jpg"
+      "image": "img/characters/rubeushagrid.jpg"
     },
     {
       "id": 206,
@@ -6825,8 +6825,7 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": ["Thomas family"],
-      "books_featured_in": [5, 7],
-      "image": "img/characters/deanthomas.jpg"
+      "books_featured_in": [5, 7]
     },
     {
       "id": 400,
@@ -7182,8 +7181,7 @@ export default {
       "patronus": null,
       "house": null,
       "associated_groups": [],
-      "books_featured_in": [1, 3, 7],
-      "image": "img/characters/cassius.jpg"
+      "books_featured_in": [1, 3, 7]
     },
     {
       "id": 459,
