@@ -8,6 +8,7 @@ import { schoolsData } from "./js/schools.js";
 import { charactersData } from "./js/characters.js";
 import { speciesData } from "./js/species.js";
 
+//id de Div page
 const home = document.getElementById("home");
 const fun = document.getElementById("fun");
 const characters = document.getElementById("characters");
@@ -141,3 +142,5 @@ menuIcon.addEventListener("click", function () {
   const menu = document.querySelector(".nav-links");
   menu.classList.toggle("open");
 });
+
+

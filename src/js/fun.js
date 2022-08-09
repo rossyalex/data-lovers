@@ -20,7 +20,7 @@ export const funData = (ordered = 'asc') => {
       `<div class="col-3">
         <div class="card-fun">
           <div class="card-fun-content" data-id="fun-${id}">
-            <h3 class="center">${type}</h3>
+            <h2 class="center">${type}</h2>
             <p class="p-card-fun">${content}</p>
           </div>
         </div>

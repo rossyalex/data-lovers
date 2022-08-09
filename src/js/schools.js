@@ -18,11 +18,13 @@ export const schoolsData = (ordered = 'asc') => {
     const { id, house, day, founder, description, image } = item;
     howardSchools.innerHTML +=
       `<div class="col-3">
-        <div class="card-schools toTurn">
-          <div class="card-sch-content" data-id="fun-${id}">
-
-            <img src="${image}" class="img-schools" alt="schools">
-          </div>
+        <div class="scene">
+            <div class="card toTurn">
+              <div class="card_face card-front" data-id="fun-${id}">
+                <img src="${image}" class="img-schools " alt="schools">
+              </div>
+              <div class="card_face card-back"></div>
+            </div>
         </div>
       </div>`;
   });
