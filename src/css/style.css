@@ -118,13 +118,13 @@ h1 {
 h2 {
   font-size: 2rem;
   font-family: harryp;
-  color: white;
+  color: #c8972e;
 }
 
 h3 {
   font-size: 1.375rem;
   font-family: dumbledor;
-  color: white;
+  color: #e19e09;
 }
 
 h4 {
@@ -636,7 +636,7 @@ p {
   background-color: rgba(131, 47, 44, 0.7);
   border-radius: 6px;
   max-width: 100%;}
-  
+
 .card-book {
   width: 100%;
   height: 100%;
@@ -697,15 +697,17 @@ p {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #E19E09;
+  padding: 30px;
 }
 
-.card-fun-content > h3 {
+.card-fun-content > h2 {
   padding: 5px;
   color: #E19E09;
 }
 
 .p-card-fun {
-  color: #E19E09;
+  color: White;
+  font-size: 18px;
 }
 
 .card-potion {
@@ -721,8 +723,9 @@ p {
 }
 
 .img-schools {
-  width: 220px;
-  height: 250px;
+  width: 80%;
+  height: 75%;
+  justify-content: center;
 }
 
 /* CSS Card Characters */

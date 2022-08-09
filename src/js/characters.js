@@ -12,7 +12,8 @@ export const charactersData = () => {
     const imgAlt = 'img/hat.png';
     charactersHtml.innerHTML +=
       `<div class="col-3">
-        <div class="card-fun">
+        <div class="scene">
+        <div></div>
           <div class="card-fun-content" data-id="fun-${id}">
             <h3 class="center">${name} - ${species}</h3>
             <!-- Condicion si birth es null entonces deja vacío de lo contrario carga birth -->
