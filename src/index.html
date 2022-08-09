@@ -228,17 +228,17 @@
           <div class="sorter-funfacts">
             <label class="labelname">
               Gender:
-              <select name="alphabet" class="filter-alphabet">
+              <select id="genderCharacter" name="gender" class="filter-alphabet">
                 <option>-</option>
-                <option value="F">F</option>
-                <option value="M">M</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
               </select>
             </label>
           </div>
           <div class="sorter-funfacts">
             <label class="labelname">
               Study House:
-              <select name="alphabet" class="filter-alphabet">
+              <select id="studyHouse" name="house" class="filter-alphabet">
                 <option>-</option>
                 <option value="Gryffindor">Gryffindor</option>
                 <option value="Ravenclaw">Ravenclaw</option>
@@ -260,6 +260,14 @@
         <div id="charactersCard" class="row">
 
         </div>
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+              <div id="pagination" class="pagination">
+            </div>
+            <div class="col-3"></div>
+          </div>
+          </div>
       </div>
     </div>
     <!-- Books Page -->
@@ -371,7 +379,7 @@
         <!--Section card -->
         <div class="row" id="potions-card">
         </div>
-        
+
       </div>
     </div>
     <!--Footer Section-->

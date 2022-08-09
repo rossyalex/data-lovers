@@ -5,7 +5,7 @@ import {showPotions, filterByPotionsSepells, sortPotions} from "./js/potion.js";
 
 // import data from houses
 import { schoolsData } from "./js/schools.js";
-import { charactersData } from "./js/characters.js";
+import { charactersData, filterGender, filterStudyHouse, filterSpecies } from "./js/characters.js";
 import { speciesData } from "./js/species.js";
 
 //id de Div page
@@ -36,7 +36,10 @@ const bookSelect = document.getElementById("bookSelect");
 // Selector Card Howard Schools
 const schoolsSelect = document.getElementById("schoolSelect");
 
-// console.log(data.characters);
+// Selectors and filter in characters
+const genderCharacter = document.getElementById('genderCharacter');
+const studyHouse = document.getElementById('studyHouse');
+const species = document.getElementById('species');
 
 // Add event click to NavMenu
 home_nav.addEventListener("click", pageShow);
@@ -54,13 +57,16 @@ school_btn.addEventListener("click", pageShow);
 potions_btn.addEventListener("click", pageShow);
 
 //Add event click tu change potions or spells
-selectPotionSpell.addEventListener("click",SelectChangePotionSpells);
+// selectPotionSpell.addEventListener("click",SelectChangePotionSpells);
 
 // Event change selector ordered
 funSelect.addEventListener("change", funChange);
 bookSelect.addEventListener("change", bookChange);
 schoolsSelect.addEventListener("change", schoolsChange);
 schoolsSelect.addEventListener("change", sortPotionsSpells);
+genderCharacter.addEventListener("change", genderCharacterChange);
+studyHouse.addEventListener("change", studyHouseChange);
+species.addEventListener("change", specieChange);
 
 // Function execute card fun facts
 funData();
@@ -121,8 +127,31 @@ function sortPotionsSpells(e) {
 
 function schoolsChange() {
   const valueSchools = schoolsSelect.options[schoolsSelect.selectedIndex].value;
-  console.log(valueSchools);
   schoolsData(valueSchools);
+}
+
+/**
+ * Método para devolver los characters según el género
+ */
+function genderCharacterChange() {
+  const valueGender = genderCharacter.options[genderCharacter.selectedIndex].value;
+  filterGender(valueGender);
+}
+
+/**
+ * Método para devolver los characters según la casa de estudio
+ */
+function studyHouseChange() {
+  const valueStudy = studyHouse.options[studyHouse.selectedIndex].value;
+  filterStudyHouse(valueStudy)
+}
+
+/**
+ * Método para ordenar los characters según la specie (Raza)
+ */
+function specieChange() {
+  const valueSpecie = species.options[species.selectedIndex].value;
+  filterSpecies(valueSpecie);
 }
 
 /**
