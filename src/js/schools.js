@@ -21,9 +21,17 @@ export const schoolsData = (ordered = 'asc') => {
         <div class="scene">
             <div class="card toTurn">
               <div class="card_face card-front" data-id="fun-${id}">
+                <h3>House name</h3> 
+                <h4 class="center">${house}</h4>
+                <div class="card_face card-back" id="">
+                  <h3>Founder</h3> 
+                  <h4 class="center">${founder}</h4>
+                  <h3>Day</h3> 
+                  <p class="p-card-sch">${day}</p>
+                  <p class="p-card-sch">${description}</p>
+                </div>
                 <img src="${image}" class="img-schools " alt="schools">
               </div>
-              <div class="card_face card-back"></div>
             </div>
         </div>
       </div>`;
