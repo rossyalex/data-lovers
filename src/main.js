@@ -5,9 +5,10 @@ import {showPotions, filterByPotionsSpells, sortPotions} from "./js/potion.js";
 
 // import data from houses
 import { schoolsData } from "./js/schools.js";
-import { charactersData } from "./js/characters.js";
+import { generalOrder, filterGender, filterStudyHouse, filterSpecies } from "./js/characters.js";
 import { speciesData } from "./js/species.js";
 
+//id de Div page
 const home = document.getElementById("home");
 const fun = document.getElementById("fun");
 const characters = document.getElementById("characters");
@@ -36,7 +37,10 @@ const bookSelect = document.getElementById("bookSelect");
 const schoolsSelect = document.getElementById("schoolSelect");
 const selectPotionSpell= document.getElementById("selectPotionSpell");
 const sortPotionSpellSelect= document.getElementById("sortPotionSpell");
-// console.log(data.characters);
+// Selectors and filter in characters
+const genderCharacter = document.getElementById('genderCharacter');
+const studyHouse = document.getElementById('studyHouse');
+const species = document.getElementById('species');
 
 // Add event click to NavMenu
 home_nav.addEventListener("click", pageShow);
@@ -60,6 +64,9 @@ funSelect.addEventListener("change", funChange);
 bookSelect.addEventListener("change", bookChange);
 schoolsSelect.addEventListener("change", schoolsChange);
 sortPotionSpellSelect.addEventListener("change", sortPotionsSpells);
+genderCharacter.addEventListener("change", genderCharacterChange);
+studyHouse.addEventListener("change", studyHouseChange);
+species.addEventListener("change", specieChange);
 selectPotionSpell.addEventListener("change",SelectChangePotionSpells);
 
 // Function execute card fun facts
@@ -75,7 +82,7 @@ schoolsData();
 speciesData();
 
 // Function execute card of characters
-charactersData();
+generalOrder();
 
 // Function execute Potions
 showPotions();
@@ -120,20 +127,32 @@ function sortPotionsSpells(e) {
 
 function schoolsChange() {
   const valueSchools = schoolsSelect.options[schoolsSelect.selectedIndex].value;
-  console.log(valueSchools);
   schoolsData(valueSchools);
 }
 
 /**
- * Función que agrega evento de click a Howard School
- * @type {NodeListOf<Element>}
+ * Método para devolver los characters según el género
  */
-const toTurn = document.querySelectorAll(".toTurn");
-toTurn.forEach((item) => {
-  item.addEventListener("click", function () {
-    this.classList.toggle("is-flipped");
-  });
-});
+function genderCharacterChange() {
+  const valueGender = genderCharacter.options[genderCharacter.selectedIndex].value;
+  filterGender(valueGender);
+}
+
+/**
+ * Método para devolver los characters según la casa de estudio
+ */
+function studyHouseChange() {
+  const valueStudy = studyHouse.options[studyHouse.selectedIndex].value;
+  filterStudyHouse(valueStudy)
+}
+
+/**
+ * Método para ordenar los characters según la specie (Raza)
+ */
+function specieChange() {
+  const valueSpecie = species.options[species.selectedIndex].value;
+  filterSpecies(valueSpecie);
+}
 
 //Menú desplegable
 const menuIcon = document.querySelector("#menu-icon");
@@ -141,3 +160,5 @@ menuIcon.addEventListener("click", function () {
   const menu = document.querySelector(".nav-links");
   menu.classList.toggle("open");
 });
+
+

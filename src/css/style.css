@@ -116,20 +116,22 @@ h1 {
 }
 
 h2 {
+  margin: 5%;
   font-size: 2rem;
-  font-family: harryp;
-  color: white;
+  font-family: harryp, serif;
+  color: #e19e09;
 }
 
 h3 {
+  margin: 5%;
   font-size: 1.375rem;
-  font-family: dumbledor;
-  color: white;
+  font-family: harryp, serif;
+  color: #e19e09;
 }
 
 h4 {
   font-size: 1.125rem;
-  font-family: harryp, serif;
+  font-family: dumbledor;
   color: white;
 }
 
@@ -196,6 +198,15 @@ p {
   margin-top: 10px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-card-sch {
+  font-size: 18px;
+  margin-top: 2.5rem;
+}
+
 .col-1,
 .col-2,
 .col-3,
@@ -259,6 +270,14 @@ p {
   width: 96%;
 }
 
+.col-3-school {
+  width: 96%;
+}
+
+.col-3-character {
+  width: 96%;
+}
+
 .row::after {
   content: "";
   display: table;
@@ -267,6 +286,220 @@ p {
 
 .hidden-sm {
   display: none;
+}
+
+.school-card-center {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/*MediaQuery de Nav*/
+@media (max-width: 952px) {
+  .nav-menu-icon {
+    width: 50%;
+    text-align: right;
+    display: block;
+    cursor: pointer;
+    color: white;
+  }
+  .nav-menu-icon i:hover {
+    color: #e19e09;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links.open {
+    position: absolute;
+    width: 180px;
+    display: block;
+    height: auto;
+    top: 50px;
+    right: 0px;
+    background-color: #fff;
+  }
+  .nav-links li {
+    flex-direction: column;
+  }
+  .nav-links li a {
+    width: 100%;
+    display: block;
+    padding: 7px 16px;
+    background-color: rgb(26, 32, 44);
+    font-size: 20px;
+  }
+  .nav-links .bar {
+    display: none;
+  }
+  .titles {
+    font-size: 7vw;
+  }
+  .t-paragraph {
+    font-size: 2vw;
+
+  }
+}
+/* Media query grid */
+
+@media only screen and (min-width: 540px) {
+  .container {
+    width: auto;
+  }
+  #start{
+    width: 100vh;
+  }
+  .startstyle1{
+    top: 10%;
+    text-align: center;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 96%;
+  }
+
+  .col-3-school {
+    width: 96%;
+  }
+
+  .col-3-character {
+    width: 96%;
+  }
+}
+
+@media only screen and (min-width: 55em) {/* 800px */
+  .col-1 {
+    width: 4.33%;
+  }
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .col-3-school {
+    width: 46%;
+  }
+
+  .col-3-character {
+    width: 29%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+
+  #start {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 960px) {/* 960px */
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .startstyle1 {
+    width: 43%;
+    height: 35%;
+    position: relative;
+  }
+  #start {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: -76px;
+  }
+}
+
+@media only screen and (max-width: 1280px) { /* 1280px */
+  .container {
+    width: 100%;
+    max-width: 100px;
+  }
+}
+
+/*MediaQuery de footer*/
+@media (max-width: 858px) {
+  /* .checkbtn {
+    display: block;
+  } */
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 14px;
+  }
+  li a:hover,
+  li a.active {
+    background: none;
+  }
+  /* #check:checked ~ ul {
+    left: 0;
+  } */
+  .footer_img {
+    height: 4vh;
+    border-radius: 80%;
+  }
 }
 
 #start {
@@ -465,7 +698,16 @@ p {
   border-radius: 6px;
   max-width: 100%;
 }
-  
+
+.card-main {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(131, 47, 44, 0.7);
+  border-radius: 6px;
+  max-width: 100%;}
+
 .card-book {
   width: 100%;
   height: 100%;
@@ -502,7 +744,6 @@ p {
   padding: 13px;
 }
 
-
 .center {
   text-align: center;
   margin-left: auto;
@@ -522,15 +763,17 @@ p {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #E19E09;
+  padding: 30px;
 }
 
-.card-fun-content > h3 {
+.card-fun-content > h2 {
   padding: 5px;
   color: #E19E09;
 }
 
 .p-card-fun {
-  color: #E19E09;
+  color: White;
+  font-size: 18px;
 }
 
 .card-potion {
@@ -545,19 +788,71 @@ p {
   padding: 10px;
 }
 
+.school-card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(131, 47, 44, 0.7);
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.school-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-character {
+  width: 100%;
+  height: 300px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(131, 47, 44, 0.7);
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.card-character.is-flipped {
+  transform: rotateY(180deg);
+}
+
 .img-schools {
-  width: 220px;
-  height: 250px;
+  margin: 5%;
+  width: 75%;
+  height: 75%;
+  border-radius: 6px;
 }
 
 /* CSS Card Characters */
 
 .card-characters-img {
-  height: 150px;
+  height: 170px;
   display: block;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
+  border-radius: 6px;
 }
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #832F2C;
+  color: white;
+}
+
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Harry Potter Fan Page</title>
@@ -12,13 +11,12 @@
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/x-icon" href="img/logonav2.ico">
-
 </head>
 
 <body>
-  <!-- <audio  loop autoplay height="" width="">
-<source src="./audio/harrypottertheme.mp3" type="audio/mp3">
-</audio> -->
+<!--<audio class="hide" loop autoplay height="" width="">-->
+<!--  <source src="./audio/harrypottertheme.mp3" type="audio/mp3">-->
+<!--</audio>-->
 
   <!-- main menu -->
   <div class="container">
@@ -225,42 +223,56 @@
           </div>
         </section>
         <!--Section Filter-->
-        <section class="center">
-          <div class="sorter-funfacts">
-            <label class="labelname">
-              Gender:
-              <select name="alphabet" class="filter-alphabet">
-                <option>-</option>
-                <option value="F">F</option>
-                <option value="M">M</option>
-              </select>
-            </label>
+        <div class="row">
+          <div class="col-4 center">
+            <div class="sorter-funfacts">
+              <label class="labelname">
+                Gender:
+                <select id="genderCharacter" name="gender" class="filter-alphabet">
+                  <option>-</option>
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                </select>
+              </label>
+            </div>
           </div>
-          <div class="sorter-funfacts">
-            <label class="labelname">
-              Study House:
-              <select name="alphabet" class="filter-alphabet">
-                <option>-</option>
-                <option value="Gryffindor">Gryffindor</option>
-                <option value="Ravenclaw">Ravenclaw</option>
-                <option value="Hufflepuff">Hufflepuff</option>
-                <option value="Slytherin">Slytherin</option>
-              </select>
-            </label>
+          <div class="col-4 center">
+            <div class="sorter-funfacts">
+              <label class="labelname">
+                Study House:
+                <select id="studyHouse" name="house" class="filter-alphabet">
+                  <option>-</option>
+                  <option value="Gryffindor">Gryffindor</option>
+                  <option value="Ravenclaw">Ravenclaw</option>
+                  <option value="Hufflepuff">Hufflepuff</option>
+                  <option value="Slytherin">Slytherin</option>
+                </select>
+              </label>
+            </div>
           </div>
-          <div class="sorter-funfacts">
-            <label class="labelname">
-              Species:
-              <select id="species" name="species" class="filter-alphabet">
-                <option>-</option>
-              </select>
-            </label>
+          <div class="col-4 center">
+            <div class="sorter-funfacts">
+              <label class="labelname">
+                Species:
+                <select id="species" name="species" class="filter-alphabet">
+                  <option>-</option>
+                </select>
+              </label>
+            </div>
           </div>
-        </section>
+        </div>
 
         <div id="charactersCard" class="row">
 
         </div>
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+              <div id="pagination" class="pagination">
+            </div>
+            <div class="col-3"></div>
+          </div>
+          </div>
       </div>
     </div>
     <!-- Books Page -->

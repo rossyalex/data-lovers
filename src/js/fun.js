@@ -17,10 +17,10 @@ export const funData = (ordered = 'asc') => {
   funFacts.forEach((item) => {
     const { id, type, content } = item;
     funFact.innerHTML +=
-      `<div class="col-3">
+      `<div class="col-3-school">
         <div class="card-fun">
           <div class="card-fun-content" data-id="fun-${id}">
-            <h3 class="center">${type}</h3>
+            <h2 class="center">${type}</h2>
             <p class="p-card-fun">${content}</p>
           </div>
         </div>

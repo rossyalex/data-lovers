@@ -29,9 +29,9 @@ function printBooks(books) {
             <div class="card_face card-back">
               <h3>Title</h3>  
               <p>${book.title}</p>
-              <h3>Release Day</h3>  
+              <h3>Release Day</h3>
               <p>${book.releaseDay}</p>
-              <h3>Description</h3>  
+              <h3>Description</h3>
               <p>${book.description}</p>
             </div>
           </div>
