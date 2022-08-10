@@ -1,7 +1,7 @@
 import data from "../data/harrypotter/data.js";
 import { funData } from "./js/fun.js";
-import { showBooks, sortBooks, sortBooksYear } from "./js/books.js";
-import {showPotions, filterByPotionsSepells, sortPotions} from "./js/potion.js";
+import { showBooks, sortBooks } from "./js/books.js";
+import {showPotions, filterByPotionsSpells, sortPotions} from "./js/potion.js";
 
 // import data from houses
 import { schoolsData } from "./js/schools.js";
@@ -34,7 +34,8 @@ const bookSelect = document.getElementById("bookSelect");
 
 // Selector Card Howard Schools
 const schoolsSelect = document.getElementById("schoolSelect");
-
+const selectPotionSpell= document.getElementById("selectPotionSpell");
+const sortPotionSpellSelect= document.getElementById("sortPotionSpell");
 // console.log(data.characters);
 
 // Add event click to NavMenu
@@ -52,14 +53,14 @@ books_btn.addEventListener("click", pageShow);
 school_btn.addEventListener("click", pageShow);
 potions_btn.addEventListener("click", pageShow);
 
-//Add event click tu change potions or spells
-selectPotionSpell.addEventListener("click",SelectChangePotionSpells);
+
 
 // Event change selector ordered
 funSelect.addEventListener("change", funChange);
 bookSelect.addEventListener("change", bookChange);
 schoolsSelect.addEventListener("change", schoolsChange);
-schoolsSelect.addEventListener("change", sortPotionsSpells);
+sortPotionSpellSelect.addEventListener("change", sortPotionsSpells);
+selectPotionSpell.addEventListener("change",SelectChangePotionSpells);
 
 // Function execute card fun facts
 funData();
@@ -107,11 +108,10 @@ function funChange() {
 
 function bookChange(e) {
   sortBooks(e.target.value);
-  sortBooksYear(e.target.value);
 }
 
 function SelectChangePotionSpells(e) {
-  filterByPotionsSepells(e.target.value);
+  filterByPotionsSpells(e.target.value);
 }
 
 function sortPotionsSpells(e) {

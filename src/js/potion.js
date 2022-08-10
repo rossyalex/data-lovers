@@ -83,33 +83,42 @@ function clear() {
   document.getElementById("potions-card").innerHTML = "";
 }
 
-//Funcion para sort alfabeticamente
+//Funcion para filtrar pociones o hechizos
 
-export function filterByPotionsSepells (){
-  const selectPagePotion = document.getElementById("selectPotionSpell");
-selectPagePotion.addEventListener("change", (e) => {
+export function filterByPotionsSpells(type) {
+  // selectPagePotion.addEventListener("change", (e) => {
 
-  if (e.target.value === "potions") {
+  if (type === "potions") {
     showPotions();
-  } else if (e.target.value === "spells") {
+  } else if (type === "spells") {
     showSpells();
   }
-});
+  // });
 }
 
-//NO FUNCIONA
+//Funcion para ordenar alfabeticamente
 export function sortPotions(order) {
-  const currentType = document.getElementById("selectPotionSpell").value;
-  const filterType = filterByPotionsSepells(currentType);
-    if (order === "asc"){
-      filterType.sort((a, b) => {
-        return a.name.localeCompare(b.name);
-      });
-    }else if (order === "desc"){
-      filterType.sort((a, b) => {
-        return b.name.localeCompare(a.name);
-    });
-  };
-  return currentType;
-}
+  const selectPagePotion = document.getElementById("selectPotionSpell");
+  let filterType = [];
+  if (selectPagePotion.value === "potions") {
+    filterType = data.potions;
+  } else if (selectPagePotion.value === "spells") {
+    filterType = data.spells;
+  }
 
+  if (order === "asc") {
+    filterType.sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    });
+  } else if (order === "desc") {
+    filterType.sort(function (a, b) {
+      return b.name.localeCompare(a.name);
+    });
+  }
+
+  if (selectPagePotion.value === "potions") {
+    printPotions(filterType);
+  } else if (selectPagePotion.value === "spells") {
+    printSpells(filterType);
+  }
+}
