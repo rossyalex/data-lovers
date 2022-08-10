@@ -4,9 +4,10 @@ const charactersHtml = document.getElementById('charactersCard');
 const paginationHtml = document.getElementById('pagination');
 
 const { characters } = data;
-const numberElements = 100;
+const originalCharacters = [...characters];
+const numberElements = 99;
 let characterChunkData = [];
-let charactersPortion = characters.slice(0, 99);
+let charactersPortion = [];
 
 /**
  * Metodo para ordenar por género
@@ -99,31 +100,59 @@ function eachPaginate(id, paginateLink) {
 }
 
 /**
+ * Método para generar todos los personajes paginados
+ */
+export const generalOrder = () => {
+  characterChunkData = spliceIntoChunks(originalCharacters, numberElements);
+  const quantity = characterChunkData.length;
+  generatePagination(quantity);
+  charactersPortion = characterChunkData[0];
+  charactersData();
+  paginateEvent();
+}
+
+/**
+ * Método para voltear
+ */
+function isFlipped() {
+  const toTurn = document.querySelectorAll(".card-character");
+  toTurn.forEach((item) => {
+    item.addEventListener("click", function () {
+      this.classList.toggle("is-flipped");
+    });
+  });
+}
+
+/**
  * Método para realizar orden de characters de forma general
  */
-export const charactersData = () => {
+const charactersData = () => {
   charactersHtml.innerHTML = "";
   charactersPortion.forEach((character) => {
     const { id, name, birth, species, house, image } = character;
     const imgAlt = 'img/hat.png';
     charactersHtml.innerHTML +=
-      `<div class="col-3">
-          <div class="scene">
-           <div class="card toTurn">
-              <div class="card_face card-front" data-id="fun-${id}">
-                <h3 class="center">${name} - ${species}</h3>
-                <!-- Condicion si birth es null entonces deja vacío de lo contrario carga birth -->
-                <h3> Birthday </h3>
-                <h4 class="center">${birth === null ? 'Not info' : birth}</h4>
-                <h3>House name</h3>
-                <p class="p-card-fun center">${house === null ? 'Not info' : house}</p>
-                <!-- Condicion si image es undefined (No existe imagen) entonces deja hat.png de lo contrario carga image -->
-                <img class="card-characters-img center" src="${image === undefined ? imgAlt : image}" alt="${name}">
+      `<div class="col-3-character">
+          <div class="scene school-card-center">
+             <div class="card-character">
+                <div class="card_face card-front" data-id="fun-${id}">
+                  <h2 class="center">${name} - ${species}</h2>
+                  <!-- Condicion si image es undefined (No existe imagen) entonces deja hat.png de lo contrario carga image -->
+                  <img class="card-characters-img center" src="${image === undefined ? imgAlt : image}" alt="${name}">
+                </div>
+                <div class="card_face card-back">
+                  <!-- Condicion si birth es null entonces deja vacío de lo contrario carga birth -->
+                  <h3> Birthday </h3>
+                  <h4 class="center">${birth === null ? 'Not info' : birth}</h4>
+                  <h3>House name</h3>
+                  <p class="p-card-fun center">${house === null ? 'Not info' : house}</p>
+                </div>
             </div>
-          </div>
         </div>
       </div>`;
   })
+
+  isFlipped();
 }
 
 

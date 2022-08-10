@@ -27,11 +27,11 @@ function printBooks(books) {
               <img src="${book.poster}" class="img-spell2" alt="Harry Potter and the Sorcerer's Stone">
             </div>
             <div class="card_face card-back" id="1">
-              <h3>Title</h3>  
+              <h3>Title</h3>
               <p>${book.title}</p>
-              <h3>Release Day</h3>  
+              <h3>Release Day</h3>
               <p>${book.releaseDay}</p>
-              <h3>Description</h3>  
+              <h3>Description</h3>
               <p>${book.description}</p>
             </div>
           </div>
