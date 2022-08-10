@@ -5,7 +5,7 @@ import {showPotions, filterByPotionsSepells, sortPotions} from "./js/potion.js";
 
 // import data from houses
 import { schoolsData } from "./js/schools.js";
-import { charactersData, filterGender, filterStudyHouse, filterSpecies } from "./js/characters.js";
+import { generalOrder, filterGender, filterStudyHouse, filterSpecies } from "./js/characters.js";
 import { speciesData } from "./js/species.js";
 
 //id de Div page
@@ -81,7 +81,7 @@ schoolsData();
 speciesData();
 
 // Function execute card of characters
-charactersData();
+generalOrder();
 
 // Function execute Potions
 showPotions();
@@ -153,17 +153,6 @@ function specieChange() {
   const valueSpecie = species.options[species.selectedIndex].value;
   filterSpecies(valueSpecie);
 }
-
-/**
- * Función que agrega evento de click a Howard School
- * @type {NodeListOf<Element>}
- */
-const toTurn = document.querySelectorAll(".toTurn");
-toTurn.forEach((item) => {
-  item.addEventListener("click", function () {
-    this.classList.toggle("is-flipped");
-  });
-});
 
 //Menú desplegable
 const menuIcon = document.querySelector("#menu-icon");
