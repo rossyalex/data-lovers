@@ -1,4 +1,4 @@
-import data from "../data/harrypotter/data.js";
+// import data from "../data/harrypotter/data.js";
 import { funData } from "./js/fun.js";
 import { showBooks, sortBooks } from "./js/books.js";
 import {showPotions, filterByPotionsSpells, sortPotions} from "./js/potion.js";
