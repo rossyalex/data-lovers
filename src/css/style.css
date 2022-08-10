@@ -513,16 +513,19 @@ p {
 
 .startstyle1 {
   font-family: "purple-3";
-  padding: 44px;
+  will-change: auto;
   height: 35%;
   position: relative;
-
+  /* margin-left: 658px;
+  margin-top: 699px;
+  width: 30%; */
 }
 
 .startstyle1 p {
   font-size: 25px;
   color: #832f2c;
   text-align: center;
+  font-family: "harryp";
 }
 
 .button {
@@ -559,17 +562,16 @@ p {
   margin-bottom: 0;
   width: 100%;
   margin-top: auto;
+  float:right;
 }
 
 .footer_text {
-  text-align: start;
+  text-align: -webkit-center;
   margin: 0;
   font-family: "harryp";
-  font-size: 2vw;
 }
 
 .footer_img {
-  height: 7vh;
   align-self: center;
   border-radius: 80%;
 }
@@ -580,7 +582,6 @@ p {
   width: auto;
   list-style-type: none;
   color: #fff;
-  font-size: 1.25rem;
 }
 
 .social_media_icons {
@@ -650,8 +651,15 @@ p {
 
 .img-spell {
   width: 250px;
-  height: 350px;
+  height: 282px;
   border-radius: 6px;
+}
+
+.style-potion {
+    width: 250px;
+    height: 306px;
+    border-radius: 6px;
+    margin-top: 17px;
 }
 
 .img-spell2 {
@@ -728,10 +736,6 @@ p {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
-/* .card-front {
-  background-color: black;
-} */
 
 .card-back {
   background-color: #832f2c;
@@ -850,4 +854,5 @@ p {
   background-color: #832F2C;
   color: white;
 }
+
 

@@ -26,8 +26,8 @@ function printBooks(books) {
             <div class="card_face card-front">
               <img src="${book.poster}" class="img-spell2" alt="Harry Potter and the Sorcerer's Stone">
             </div>
-            <div class="card_face card-back" id="1">
-              <h3>Title</h3>
+            <div class="card_face card-back">
+              <h3>Title</h3>  
               <p>${book.title}</p>
               <h3>Release Day</h3>
               <p>${book.releaseDay}</p>
@@ -56,16 +56,4 @@ export function sortBooks(order) {
   });
 
   printBooks(bookSorted);
-}
-
-
-//Funcion para sort por año
-
-export function sortBooksYear(order) {
-  const bookYearSorted = data.books.sort((a, b) => {
-    if (order === "minor") return a.releaseDay.localeCompare(b.releaseDay);
-    else if (order === "older") return b.releaseDay.localeCompare(a.releaseDay);
-  });
-
-  printBooks(bookYearSorted);
 }

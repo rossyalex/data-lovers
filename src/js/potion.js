@@ -29,11 +29,11 @@ function printPotions(potions) {
       <div class="scene">
         <div class="card">
             <div class="card_face card-front">
-                <img src="img/spellsandpotion/spells.jpg" class="img-spell" alt="spell">
+                <img src="img/spellsandpotion/spells.jpg" class="style-potion" alt="spell">
+                <h3 style="margin: 10px">Name</h3>  
+            <p>${potions.name}</p>
             </div>
             <div class="card_face card-back">
-            <h3>Name</h3>  
-            <p>${potions.name}</p>
             <h3>Description</h3>  
             <p>${potions.description}</p>
             </div>
@@ -54,11 +54,11 @@ function printSpells(spells) {
       <div class="scene">
         <div class="card">
             <div class="card_face card-front">
-                <img src="img/spellsandpotion/potions.jpg" class="img-spell" alt="spell">
+                <img src="img/spellsandpotion/potions.jpg" class="style-potion" alt="spell">
+                <h3 style="margin: 10px">Name</h3>  
+            <p>${spells.name}</p>
             </div>
             <div class="card_face card-back">
-            <h3>Name</h3>  
-            <p>${spells.name}</p>
             <h3>Other Name</h3>  
             <p>${spells.other_name}</p>
             <h3>Pronunciation</h3>  
@@ -83,33 +83,42 @@ function clear() {
   document.getElementById("potions-card").innerHTML = "";
 }
 
-//Funcion para sort alfabeticamente
+//Funcion para filtrar pociones o hechizos
 
-export function filterByPotionsSepells (){
-  const selectPagePotion = document.getElementById("selectPotionSpell");
-selectPagePotion.addEventListener("change", (e) => {
+export function filterByPotionsSpells(type) {
+  // selectPagePotion.addEventListener("change", (e) => {
 
-  if (e.target.value === "potions") {
+  if (type === "potions") {
     showPotions();
-  } else if (e.target.value === "spells") {
+  } else if (type === "spells") {
     showSpells();
   }
-});
+  // });
 }
 
-//NO FUNCIONA
+//Funcion para ordenar alfabeticamente
 export function sortPotions(order) {
-  const sortByType = document.getElementById("sortPotionSpell").value;
-  const filterType = filterByPotionsSepells(sortByType);
-    if (order === "asc"){
-      filterType.sort((a, b) => {
-        return a.name.localeCompare(b.name);
-      });
-    }else if (order === "desc"){
-      filterType.sort((a, b) => {
-        return b.name.localeCompare(a.name);
-    });
-  };
-  printPotions(sortByType);
-}
+  const selectPagePotion = document.getElementById("selectPotionSpell");
+  let filterType = [];
+  if (selectPagePotion.value === "potions") {
+    filterType = data.potions;
+  } else if (selectPagePotion.value === "spells") {
+    filterType = data.spells;
+  }
 
+  if (order === "asc") {
+    filterType.sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    });
+  } else if (order === "desc") {
+    filterType.sort(function (a, b) {
+      return b.name.localeCompare(a.name);
+    });
+  }
+
+  if (selectPagePotion.value === "potions") {
+    printPotions(filterType);
+  } else if (selectPagePotion.value === "spells") {
+    printSpells(filterType);
+  }
+}
