@@ -194,6 +194,13 @@
 .social_media {
   font-size: 2vh;
 }
+.col-3-school {
+  width: 46%;
+}
+
+.col-3-character {
+  width: 29%;
+}
 
 }
 
@@ -231,8 +238,3 @@
 }
 
 }
-/* @media only screen and (max-width: 1280px) { /* 1280px */
-  /* .container {
-    width: 100%;
-    max-width: 100px;
-  }  */
