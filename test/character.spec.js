@@ -6,19 +6,14 @@ describe('General Order', () => {
     expect(typeof generalOrder).toBe('function');
   });
 
-  it('it is General Order number of pages', () => {
+  it('it is number pages and first character', () => {
     document.body.innerHTML = `<div id="pagination" class="pagination"></div>`;
     document.body.innerHTML += `<div id="charactersCard" class="row"></div>`;
     const data = generalOrder();
     expect(data.length).toBe(8);
-  });
-
-  it('it is first General Order', () => {
-    document.body.innerHTML = `<div id="pagination" class="pagination"></div>`;
-    document.body.innerHTML += `<div id="charactersCard" class="row"></div>`;
-    const data = generalOrder();
     expect(data[0][0].name).toBe("Euan Abercrombie");
   });
+
 });
 
 describe('Filter Study House', () => {
