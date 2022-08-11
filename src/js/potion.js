@@ -86,14 +86,13 @@ function clear() {
 //Funcion para filtrar pociones o hechizos
 
 export function filterByPotionsSpells(type) {
-  // selectPagePotion.addEventListener("change", (e) => {
 
   if (type === "potions") {
     showPotions();
   } else if (type === "spells") {
     showSpells();
   }
-  // });
+
 }
 
 //Funcion para ordenar alfabeticamente
