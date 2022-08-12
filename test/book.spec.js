@@ -1,7 +1,7 @@
 
 import { sortBooks } from "../src/js/books.js";
 
-const bookTest= books: [
+const bookTest= [
   {
     id: 1, 
     title: "Harry Potter and the Sorcerer's Stone",

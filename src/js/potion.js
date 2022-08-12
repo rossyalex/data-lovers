@@ -26,7 +26,7 @@ function printPotions(potions) {
   const potionList = document.getElementById("potions-card");
   potions.map((potions) => {
     const newPotion = `<div class="col-3">
-      <div class="scene">
+      <div class="scene school-card-center">
         <div class="card">
             <div class="card_face card-front">
                 <img src="img/spellsandpotion/spells.jpg" class="style-potion" alt="spell">
@@ -51,7 +51,7 @@ function printSpells(spells) {
   const spellList = document.getElementById("potions-card");
   spells.map((spells) => {
     const newSpell = `<div class="col-3">
-      <div class="scene">
+      <div class="scene school-card-center">
         <div class="card">
             <div class="card_face card-front">
                 <img src="img/spellsandpotion/potions.jpg" class="style-potion" alt="spell">

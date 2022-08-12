@@ -128,6 +128,12 @@ h3 {
   font-family: harryp, serif;
   color: #e19e09;
 }
+.h3-book {
+  margin: 2%;
+  font-size: 1.375rem;
+  font-family: harryp, serif;
+  color: #e19e09;
+}
 
 h4 {
   font-size: 1.125rem;
