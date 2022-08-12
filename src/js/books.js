@@ -21,18 +21,18 @@ function printBooks(books) {
   const bookList = document.getElementById("books-card");
   books.map((book) => {
     const newBook = `<div class="col-3">
-        <div class="scene">
+        <div class="scene school-card-center">
           <div class="card">
             <div class="card_face card-front">
               <img src="${book.poster}" class="img-spell2" alt="Harry Potter and the Sorcerer's Stone">
             </div>
             <div class="card_face card-back">
-              <h3>Title</h3>  
+              <h3 class="h3-book">Title</h3>  
               <p>${book.title}</p>
-              <h3>Release Day</h3>
+              <h3 class="h3-book">Release Day</h3>
               <p>${book.releaseDay}</p>
-              <h3>Description</h3>
-              <p>${book.description}</p>
+              <h3 class="h3-book">Description</h3>
+              <p style="line-height: 1;">${book.description}</p>
             </div>
           </div>
         </div>
