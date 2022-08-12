@@ -1,8 +1,5 @@
 import data from "../data/harrypotter/data.js";
 
-const charactersHtml = document.getElementById('charactersCard');
-const paginationHtml = document.getElementById('pagination');
-
 const { characters } = data;
 const originalCharacters = [...characters];
 const numberElements = 99;
@@ -20,6 +17,7 @@ export const filterGender = (genderSelect) => {
   charactersPortion = characterChunkData[0];
   charactersData();
   paginateEvent();
+  return characterChunkData;
 }
 
 /**
@@ -33,6 +31,7 @@ export const filterStudyHouse = (house) => {
   charactersPortion = characterChunkData[0];
   charactersData();
   paginateEvent();
+  return characterChunkData;
 }
 
 /**
@@ -46,6 +45,7 @@ export const filterSpecies = (specie) => {
   charactersPortion = characterChunkData[0];
   charactersData();
   paginateEvent();
+  return characterChunkData;
 }
 
 /**
@@ -64,6 +64,7 @@ function spliceIntoChunks(arr, chunkSize) {
  * Método para generar la paginación con sus enlaces
  */
 function generatePagination(numberPage) {
+  const paginationHtml = document.getElementById('pagination');
   paginationHtml.innerHTML = '';
   for (let i = 1; i <= numberPage; i++) {
     paginationHtml.innerHTML += `<a class="paginate-link ${i === 1 ? 'active' : ''}" href="#" data-id="${i}">${i}</a>`
@@ -109,6 +110,7 @@ export const generalOrder = () => {
   charactersPortion = characterChunkData[0];
   charactersData();
   paginateEvent();
+  return characterChunkData;
 }
 
 /**
@@ -127,6 +129,7 @@ function isFlipped() {
  * Método para realizar orden de characters de forma general
  */
 const charactersData = () => {
+  const charactersHtml = document.getElementById('charactersCard');
   charactersHtml.innerHTML = "";
   charactersPortion.forEach((character) => {
     const { id, name, birth, species, house, image } = character;

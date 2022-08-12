@@ -135,6 +135,7 @@ h3 {
   color: #e19e09;
 }
 
+
 h4 {
   font-size: 1.125rem;
   font-family: dumbledor;
@@ -284,6 +285,9 @@ p {
   width: 96%;
 }
 
+.col-3-potions{
+  width: 96%;
+}
 .row::after {
   content: "";
   display: table;
@@ -510,9 +514,9 @@ p {
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
-  border-radius: 2px;
+  background-color: rgba(131, 47, 44, 0.7);
+  border-radius: 6px;
   max-width: 100%;
-  padding: 10px;
 }
 
 .card.is-flipped {
@@ -578,7 +582,8 @@ p {
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
-  border-radius: 2px 2px 2px 2px;
+  background-color: rgba(131, 47, 44, 0.7);
+  border-radius: 2px;
   max-width: 100%;
   padding: 10px;
 }
