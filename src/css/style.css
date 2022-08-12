@@ -278,6 +278,9 @@ p {
   width: 96%;
 }
 
+.col-3-potions{
+  width: 96%;
+}
 .row::after {
   content: "";
   display: table;

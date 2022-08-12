@@ -25,9 +25,9 @@ function printPotions(potions) {
   clear();
   const potionList = document.getElementById("potions-card");
   potions.map((potions) => {
-    const newPotion = `<div class="col-3">
-      <div class="scene">
-        <div class="card">
+    const newPotion = `<div class="col-3-potions">
+      <div class="scene school-card-center">
+        <div class="card-potion">
             <div class="card_face card-front">
                 <img src="img/spellsandpotion/spells.jpg" class="style-potion" alt="spell">
                 <h3 style="margin: 10px">Name</h3>  
