@@ -310,9 +310,6 @@ p {
   will-change: auto;
   height: 35%;
   position: relative;
-  /* margin-left: 658px;
-  margin-top: 699px;
-  width: 30%; */
 }
 
 .startstyle1 p {
@@ -493,14 +490,15 @@ p {
   max-width: 100%;
 }
 
-.card-main {
+/* .card-main {
   width: 100%;
   height: 100%;
   cursor: pointer;
   position: relative;
   background-color: rgba(131, 47, 44, 0.7);
   border-radius: 6px;
-  max-width: 100%;}
+  max-width: 100%;
+} */
 
 .card-book {
   width: 100%;
@@ -509,7 +507,7 @@ p {
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
-  border-radius: 2px 2px 2px 2px;
+  border-radius: 2px;
   max-width: 100%;
   padding: 10px;
 }
