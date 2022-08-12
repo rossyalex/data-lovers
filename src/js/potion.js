@@ -25,9 +25,9 @@ function printPotions(potions) {
   clear();
   const potionList = document.getElementById("potions-card");
   potions.map((potions) => {
-    const newPotion = `<div class="col-3-potions">
+    const newPotion = `<div class="col-3">
       <div class="scene school-card-center">
-        <div class="card-potion">
+        <div class="card">
             <div class="card_face card-front">
                 <img src="img/spellsandpotion/spells.jpg" class="style-potion" alt="spell">
                 <h3 style="margin: 10px">Name</h3>  
@@ -51,7 +51,7 @@ function printSpells(spells) {
   const spellList = document.getElementById("potions-card");
   spells.map((spells) => {
     const newSpell = `<div class="col-3">
-      <div class="scene">
+      <div class="scene school-card-center">
         <div class="card">
             <div class="card_face card-front">
                 <img src="img/spellsandpotion/potions.jpg" class="style-potion" alt="spell">
@@ -86,13 +86,14 @@ function clear() {
 //Funcion para filtrar pociones o hechizos
 
 export function filterByPotionsSpells(type) {
+  // selectPagePotion.addEventListener("change", (e) => {
 
   if (type === "potions") {
     showPotions();
   } else if (type === "spells") {
     showSpells();
   }
-
+  // });
 }
 
 //Funcion para ordenar alfabeticamente
