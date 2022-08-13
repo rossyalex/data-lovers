@@ -1,6 +1,5 @@
 import data from "../data/harrypotter/data.js";
 
-const funFact = document.getElementById('funFacts');
 const { funFacts } = data;
 
 function sortAsc(x, y) {
@@ -12,6 +11,7 @@ function sortDesc(x, y) {
 }
 
 export const funData = (ordered = 'asc') => {
+  const funFact = document.getElementById('funFacts');
   funFact.innerHTML = "";
   ordered === 'asc' ? funFacts.sort(sortAsc) : funFacts.sort(sortDesc);
   funFacts.forEach((item) => {
@@ -26,4 +26,5 @@ export const funData = (ordered = 'asc') => {
         </div>
       </div>`;
   });
+  return funFacts;
 }
