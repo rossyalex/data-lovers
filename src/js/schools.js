@@ -1,6 +1,6 @@
 import data from "../data/harrypotter/data.js";
 
-const howardSchools = document.getElementById('schoolCard');
+
 const { houses } = data;
 
 /**
@@ -30,6 +30,7 @@ function isFlipped() {
 }
 
 export const schoolsData = (ordered = 'asc') => {
+  const howardSchools = document.getElementById('schoolCard');
   howardSchools.innerHTML = "";
   ordered === 'asc' ? houses.sort(sortAsc) : houses.sort(sortDesc);
   houses.forEach((item) => {
@@ -55,4 +56,5 @@ export const schoolsData = (ordered = 'asc') => {
       </div>`;
   });
   isFlipped();
+  return houses;
 }
