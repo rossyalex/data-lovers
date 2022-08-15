@@ -108,9 +108,8 @@ function pageShow() {
  * Función que detecta cambio del selector
  * e internamente vuelve a ordenar los funFacts, book change, potion and spells, school
  */
-function funChange() {
-  const value = funSelect.options[funSelect.selectedIndex].value;
-  funData(value);
+function funChange(e) {
+  funData(e.target.value);
 }
 
 function bookChange(e) {
@@ -125,33 +124,29 @@ function sortPotionsSpells(e) {
   sortPotions(e.target.value);
 }
 
-function schoolsChange() {
-  const valueSchools = schoolsSelect.options[schoolsSelect.selectedIndex].value;
-  schoolsData(valueSchools);
+function schoolsChange(e) {
+  schoolsData(e.target.value);
 }
 
 /**
  * Método para devolver los characters según el género
  */
-function genderCharacterChange() {
-  const valueGender = genderCharacter.options[genderCharacter.selectedIndex].value;
-  filterGender(valueGender);
+function genderCharacterChange(e) {
+  filterGender(e.target.value);
 }
 
 /**
  * Método para devolver los characters según la casa de estudio
  */
-function studyHouseChange() {
-  const valueStudy = studyHouse.options[studyHouse.selectedIndex].value;
-  filterStudyHouse(valueStudy)
+function studyHouseChange(e) {
+  filterStudyHouse(e.target.value)
 }
 
 /**
  * Método para ordenar los characters según la specie (Raza)
  */
-function specieChange() {
-  const valueSpecie = species.options[species.selectedIndex].value;
-  filterSpecies(valueSpecie);
+function specieChange(e) {
+  filterSpecies(e.target.value);
 }
 
 //Menú desplegable
