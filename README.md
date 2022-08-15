@@ -15,7 +15,7 @@
 
 ## 1. Link Proyecto
 
-[Link](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read)
+[Link](https://rossyalex.github.io/data-lovers/)
 
 ***
 
