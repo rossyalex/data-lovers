@@ -67,14 +67,15 @@ Todo esto realizado con html dinámico en `main.js`
 Según el testeo nos dimos cuenta que:
 
 * Las imágenes se sobreponen cuando se va a achicando la pantalla
-* 
+*
 
 ***
 ## 7. Pruebas unitarias
-
+![testingApp]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [prototipo1]: ./src/img/prototype/lo-fi-prototype.jpg
 [prototipo2]: ./src/img/prototype/HarryPotterPage.png
 [prototype-url]: https://www.figma.com/proto/r4WNNhy1BF9AtnZGIKXqRo/HarryPotterPage?page-id=0%3A1&node-id=1%3A2&viewport=449%2C618%2C0.12&scaling=scale-down-width&starting-point-node-id=1%3A2
 [historiaUsuario]: ./src/img/prototype/historiaDeUsuario.PNG
+[testingApp]: ./src/img/test.png
