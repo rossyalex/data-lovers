@@ -16,15 +16,15 @@ export function showBooks() {
 }
 
 //Función mostrar books
-function printBooks(books) {
+export function printBooks(books) {
   clear();
   const bookList = document.getElementById("books-card");
   books.map((book) => {
-    const newBook = `<div class="col-3">
+    const newBook = `<div class="col-3 book" id="${book.id}">
         <div class="scene school-card-center">
           <div class="card">
             <div class="card_face card-front">
-              <img src="${book.poster}" class="img-spell2" alt="Harry Potter and the Sorcerer's Stone">
+              <img src="${book.poster}" class="img-spell2" alt="${book.title}">
             </div>
             <div class="card_face card-back">
               <h3 class="h3-book">Title</h3>  
@@ -43,7 +43,7 @@ function printBooks(books) {
 }
 
 //Limpia el div
-function clear() {
+export function clear() {
   document.getElementById("books-card").innerHTML = "";
 }
 
@@ -55,5 +55,5 @@ export function sortBooks(order) {
     else if (order === "desc") return b.title.localeCompare(a.title);
   });
 
-  printBooks(bookSorted);
+ return bookSorted;
 }
