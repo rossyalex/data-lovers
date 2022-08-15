@@ -1,4 +1,4 @@
-import { sortBooks, clear, printBooks} from "../src/js/books";
+import { sortBooks, clear, printBooks, showBooks} from "../src/js/books";
 import data from "../src/data/harrypotter/data";
 
 //Test sort books
@@ -17,7 +17,6 @@ describe('sortBooks',() =>{
 });
 
 //test print books
-
 describe('clear', () =>{
     it('Debería eliminar books existentes en el DOM', ()=>{
         document.body.innerHTML = '<div id="books-card" class="row">TEST_INNERHTML</div>';
@@ -35,6 +34,12 @@ describe('printBooks', ()=>{
         document.body.innerHTML = '<div id="books-card"></div>';
         printBooks(data.books);
         const books= document.getElementsByClassName('book');
-        expect(books.length).toHaveLength(data.books);
+        expect(books.length).toEqual(data.books.length);
+    });
+    it('Debería retornar los libros', ()=>{
+        document.body.innerHTML = '<div id="books-card"></div>';
+        showBooks();
+        const books= document.getElementsByClassName('book');
+        expect(books.length).toEqual(data.books.length);
     });
 });

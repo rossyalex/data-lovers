@@ -21,17 +21,17 @@ export function showSpells() {
 }
 
 //Función mostrar potions
-function printPotions(potions) {
+export function printPotions(potions) {
   clear();
   const potionList = document.getElementById("potions-card");
   potions.map((potions) => {
-    const newPotion = `<div class="col-3">
+    const newPotion = `<div class="col-3 potion" id="${potions.id}">
       <div class="scene school-card-center">
         <div class="card">
             <div class="card_face card-front">
-                <img src="img/spellsandpotion/spells.jpg" class="style-potion" alt="spell">
+                <img src="img/spellsandpotion/spells.jpg" class="style-potion" alt="${potions.name}">
                 <h3 style="margin: 10px">Name</h3>  
-            <p>${potions.name}</p>
+            <p class="potion-name">${potions.name}</p>
             </div>
             <div class="card_face card-back">
             <h3>Description</h3>  
@@ -46,17 +46,17 @@ function printPotions(potions) {
 }
 
 //Función mostrar hechizos
-function printSpells(spells) {
+export function printSpells(spells) {
   clear();
   const spellList = document.getElementById("potions-card");
   spells.map((spells) => {
-    const newSpell = `<div class="col-3">
+    const newSpell = `<div class="col-3 spell" id="${spells.id}">
       <div class="scene school-card-center">
         <div class="card">
             <div class="card_face card-front">
-                <img src="img/spellsandpotion/potions.jpg" class="style-potion" alt="spell">
+                <img src="img/spellsandpotion/potions.jpg" class="style-potion" alt="${spells.name}">
                 <h3 style="margin: 10px">Name</h3>  
-            <p>${spells.name}</p>
+            <p class="spell-name">${spells.name}</p>
             </div>
             <div class="card_face card-back">
             <h3>Other Name</h3>  
@@ -79,21 +79,18 @@ function printSpells(spells) {
 }
 
 //Limpia el div
-function clear() {
+export function clear() {
   document.getElementById("potions-card").innerHTML = "";
 }
 
 //Funcion para filtrar pociones o hechizos
 
 export function filterByPotionsSpells(type) {
-  // selectPagePotion.addEventListener("change", (e) => {
-
   if (type === "potions") {
     showPotions();
   } else if (type === "spells") {
     showSpells();
   }
-  // });
 }
 
 //Funcion para ordenar alfabeticamente
