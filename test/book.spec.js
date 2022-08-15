@@ -1,78 +1,40 @@
-
-import { sortBooks } from "../src/js/books.js";
-
-const bookTest= [
-  {
-    id: 1,
-    title: "Harry Potter and the Sorcerer's Stone",
-    releaseDay: "June 26, 1997",
-    author: "J. K. Rowling",
-    description: "On his birthday, Harry Potter discovers that he is the son of two well-known wizards, from whom he has inherited magical powers. He must attend a famous school of magic and sorcery, where he establishes a friendship with two young men who will become his companions on his adventure. During his first year at Hogwarts, he discovers that a malevolent and powerful wizard named Voldemort is in search of a philosopher's stone that prolongs the life of its owner.",
-    poster: "img/books/thephilosopherstone.jpg"
-  },
-  {
-    id: 2,
-    title: "Harry Potter and the chamber of secrets",
-    releaseDay: "July 2, 1998",
-    author: "J. K. Rowling",
-    description: "Harry Potter and the sophomores investigate a malevolent threat to their Hogwarts classmates, a menacing beast that hides within the castle.",
-    poster: "img/books/thechamberofsecrets.jpg"
-  },
-];
+import { sortBooks, clear, printBooks} from "../src/js/books";
+import data from "../src/data/harrypotter/data";
 
 //Test sort books
 describe('sortBooks',() =>{
     it('is a function', ()=>{
         expect(typeof sortBooks).toBe('function');
     });
-    it('Debería retornar los libros en orden alfabético', ()=>{
-        expect(sortBooks('a-z', bookTest)).toEqual([
+    it('Debería retornar los libros en orden ascendente', ()=>{
+        const data= sortBooks('asc');
+        expect(data[0].title).toEqual("Harry Potter and the chamber of secrets");
+    });
+    it('Debería retornar los libros en orden descendente', ()=>{
+        const data= sortBooks('desc');
+        expect(data[0].title).toEqual("Harry Potter and the Sorcerer's Stone");
+  });
+});
 
-          {
-            id: 2,
-            title: "Harry Potter and the chamber of secrets",
-            releaseDay: "July 2, 1998",
-            author: "J. K. Rowling",
-            description: "Harry Potter and the sophomores investigate a malevolent threat to their Hogwarts classmates, a menacing beast that hides within the castle.",
-            poster: "img/books/thechamberofsecrets.jpg"
-          },
-          {
-            id: 1,
-            title: "Harry Potter and the Sorcerer's Stone",
-            releaseDay: "June 26, 1997",
-            author: "J. K. Rowling",
-            description: "On his birthday, Harry Potter discovers that he is the son of two well-known wizards, from whom he has inherited magical powers. He must attend a famous school of magic and sorcery, where he establishes a friendship with two young men who will become his companions on his adventure. During his first year at Hogwarts, he discovers that a malevolent and powerful wizard named Voldemort is in search of a philosopher's stone that prolongs the life of its owner.",
-            poster: "img/books/thephilosopherstone.jpg"
+//test print books
 
-          }
-        ])
+describe('clear', () =>{
+    it('Debería eliminar books existentes en el DOM', ()=>{
+        document.body.innerHTML = '<div id="books-card" class="row">TEST_INNERHTML</div>';
+        const booksCard= document.getElementById("books-card");
+        clear();
+        expect(booksCard.innerHTML).toEqual("");
     });
 });
 
-describe('sortBooks', () => {
-    it('is a function', () => {
-      expect(typeof sortBooks).toBe('function');
+describe('printBooks', ()=>{
+    it('is a function', ()=>{
+        expect(typeof printBooks).toBe('function');
+    })
+    it('Debería retornar los libros', ()=>{
+        document.body.innerHTML = '<div id="books-card"></div>';
+        printBooks(data.books);
+        const books= document.getElementsByClassName('book');
+        expect(books.length).toHaveLength(data.books);
     });
-    it('Deberia retornar un array con todos los elementos ordenados de la a a la z.',() => {
-      expect(sortBooks('z-a', bookTest)).toEqual([
-        {
-          id: 1,
-          title: "Harry Potter and the Sorcerer's Stone",
-          releaseDay: "June 26, 1997",
-          author: "J. K. Rowling",
-          description: "On his birthday, Harry Potter discovers that he is the son of two well-known wizards, from whom he has inherited magical powers. He must attend a famous school of magic and sorcery, where he establishes a friendship with two young men who will become his companions on his adventure. During his first year at Hogwarts, he discovers that a malevolent and powerful wizard named Voldemort is in search of a philosopher's stone that prolongs the life of its owner.",
-          poster: "img/books/thephilosopherstone.jpg"
-
-        },
-        {
-          id: 2,
-          title: "Harry Potter and the chamber of secrets",
-          releaseDay: "July 2, 1998",
-          author: "J. K. Rowling",
-          description: "Harry Potter and the sophomores investigate a malevolent threat to their Hogwarts classmates, a menacing beast that hides within the castle.",
-          poster: "img/books/thechamberofsecrets.jpg"
-        }
-      ]);
-    });
-
-  });
+});

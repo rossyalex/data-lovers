@@ -1,6 +1,6 @@
 // import data from "../data/harrypotter/data.js";
 import { funData } from "./js/fun.js";
-import { showBooks, sortBooks } from "./js/books.js";
+import { showBooks, sortBooks, printBooks } from "./js/books.js";
 import {showPotions, filterByPotionsSpells, sortPotions} from "./js/potion.js";
 
 // import data from houses
@@ -113,7 +113,8 @@ function funChange(e) {
 }
 
 function bookChange(e) {
-  sortBooks(e.target.value);
+  const sortedBooks= sortBooks(e.target.value);
+  printBooks(sortedBooks);
 }
 
 function SelectChangePotionSpells(e) {
