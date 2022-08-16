@@ -135,7 +135,7 @@ const charactersData = () => {
     const { id, name, birth, species, house, image } = character;
     const imgAlt = 'img/hat.png';
     charactersHtml.innerHTML +=
-      `<div class="col-3-school">
+      `<div class="col-3-character">
           <div class="scene school-card-center">
              <div class="card-character">
                 <div class="card_face card-front" data-id="fun-${id}">

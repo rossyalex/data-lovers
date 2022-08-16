@@ -506,7 +506,7 @@ p {
   max-width: 100%;
 }
 
-.card.is-flipped {
+.card-book.is-flipped {
   transform: rotateY(180deg);
 }
 
