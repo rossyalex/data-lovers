@@ -102,6 +102,9 @@ function pageShow() {
       item.classList.remove("hide");
     }
   });
+
+  const menu = document.querySelector(".nav-links");
+  menu.classList.toggle("open");
 }
 
 /**
@@ -155,6 +158,7 @@ const menuIcon = document.querySelector("#menu-icon");
 menuIcon.addEventListener("click", function () {
   const menu = document.querySelector(".nav-links");
   menu.classList.toggle("open");
+ 
 });
 
 

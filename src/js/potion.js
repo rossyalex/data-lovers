@@ -25,7 +25,7 @@ export function printPotions(potions) {
   clear();
   const potionList = document.getElementById("potions-card");
   potions.map((potions) => {
-    const newPotion = `<div class="col-3 potion" id="${potions.id}">
+    const newPotion = `<div class="col-3-school potion" id="${potions.id}">
       <div class="scene school-card-center">
         <div class="card">
             <div class="card_face card-front">
@@ -50,25 +50,23 @@ export function printSpells(spells) {
   clear();
   const spellList = document.getElementById("potions-card");
   spells.map((spells) => {
-    const newSpell = `<div class="col-3 spell" id="${spells.id}">
+    const newSpell = `<div class="col-3-school spell" id="${spells.id}">
       <div class="scene school-card-center">
         <div class="card">
             <div class="card_face card-front">
                 <img src="img/spellsandpotion/potions.jpg" class="style-potion" alt="${spells.name}">
-                <h3 style="margin: 10px">Name</h3>  
+                <h3 class="h3-book">Name</h3>  
             <p class="spell-name">${spells.name}</p>
             </div>
             <div class="card_face card-back">
-            <h3>Other Name</h3>  
-            <p>${spells.other_name}</p>
-            <h3>Pronunciation</h3>  
-            <p>${spells.pronunciation}</p>
-            <h3>Spell Type</h3>  
-            <p>${spells.spell_type}</p>
-            <h3>Description</h3>  
-            <p>${spells.description}</p>
-            <h3>Etymology</h3>  
-            <p>${spells.etymology}</p>
+            <h3 class="h3-book">Other Name</h3>  
+            <p class="p-spell">${spells.other_name ===null ? "Not info" : spells.other_name}</p>
+            <h3 class="h3-book">Pronunciation</h3>  
+            <p class="p-spell">${spells.pronunciation ===null ? "Not info" : spells.pronunciation}</p>
+            <h3 class="h3-book">Spell Type</h3>  
+            <p class="p-spell">${spells.spell_type ===null ? "Not info" : spells.spell_type}</p>
+            <h3 class="h3-book">Description</h3>  
+            <p class="p-spell">${spells.description ===null ? "Not info" : spells.description}</p>
             </div>
         </div>
       </div>

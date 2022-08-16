@@ -39,13 +39,16 @@
     font-size: 7vw;
   }
   .t-paragraph {
-    font-size: 2vw;
+    font-size: 18px;
+    padding: 0 40px;
   }
-
+  .startstyle1{
+    margin-top: 99px;
+    width: 64%;
+  }
 }
 
-/* Media query grid */
-/* @media only screen and (min-width: 390px) {
+
   .startstyle1{
     margin-top: 99px;
     width: 64%;
@@ -66,8 +69,8 @@
     font-size: 2vh;
   }
 
-} */
-/* @media only screen and (min-width: 480px) {
+
+ @media only screen and (min-width: 480px) {
   .container {
     width: auto;
   }
@@ -90,7 +93,8 @@
     font-size: 2vh;
   }
 
-} */
+} 
+
 @media only screen and (max-width: 540px) {
   .container {
     width: auto;
@@ -247,8 +251,8 @@
   .startstyle1 {
     width: 43%;
     padding: 0%;
-    margin-left: 556px;
-    margin-top: 590px;
+    margin-left: 640px;
+    margin-top: 632px;
   }
   #start {
     width: 100%;

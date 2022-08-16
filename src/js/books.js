@@ -20,7 +20,7 @@ export function printBooks(books) {
   clear();
   const bookList = document.getElementById("books-card");
   books.map((book) => {
-    const newBook = `<div class="col-3 book" id="${book.id}">
+    const newBook = `<div class="col-3-school book" id="${book.id}">
         <div class="scene school-card-center">
           <div class="card">
             <div class="card_face card-front">

@@ -15,12 +15,13 @@
 
 ## 1. Link Proyecto
 
+Harry Potter Fan Page
 [Link](https://rossyalex.github.io/data-lovers/)
 
 ***
 
 ## 2. Resumen del proyecto
-Nuestro sitio web es una fanpage con temática de Harry Potter para sus fans, en la cual pueden ver información sobre las películas, personajes, casas de estudio, hechizos y pociones utilizados por los personajes; así como datos curiosos relacionados a la saga. El objetivo es hacer un sitio donde el usuario se sienta cómodo al navegar, que su interfaz sea amigable pero a la vez dinámica y cautivadora.
+Nuestro sitio web es una fanpage con temática de Harry Potter para sus fans, en la cual pueden ver información sobre las películas, personajes, casas de estudio, hechizos y pociones utilizados por los personajes; así como datos curiosos relacionados a la saga. El objetivo es hacer un sitio donde el usuario se sienta cómodo al navegar, que su interfaz sea amigable pero a la vez dinámica y cautivadora. Puedes ver nuestro proyecto final [aquí][github-page-Misdely] o [aquí][github-page-Rossy].
 ***
 
 ## 3. Investigación UX
@@ -61,16 +62,23 @@ Todo esto realizado con html dinámico en `main.js`
 ### __Prototipo de alta fidelidad__
 
  [Ir al prototipo interactivo de Figma][prototype-url]
+
  ![prototipo2]
 ***
 ## 6. Testeos de usabilidad
-Según el testeo nos dimos cuenta que:
+Al probar la implementación de nuestro diseño y recibir feedback de compañeras, identificamos posibles mejoras que aplicamos en el código. Los principales problemas y sus resoluciones fueron:
 
-* Las imágenes se sobreponen cuando se va a achicando la pantalla
-*
+* Las imágenes se sobreponen cuando se va a achicando la pantalla, se agrega propiedad en css para disminuir tamaño en pantallas menores.
+* El texto de las cartas sobrepasaba las tarjetas, se modificó padding, margin, line height para ajustar el texto a la carta.
+* El menú en pantallas pequeñas no cerraba luego de dirigirte a la página seleccionada, se modificó función para que cerrará menú desplegable.
+* Imágenes de página principal en pantallas pequeñas se mostraban debajo del texto, se modificó medias queries para que las imágenes se ocultarán.
+* Las cartas que muestras imágenes e información de la data en pantallas pequeñas se alineaban a la izquierda, se centro la columna en media queries.
 
 ***
 ## 7. Pruebas unitarias
+
+Se realizaron los test a las funciones de cada página que filtra, ordena y muestra la información de la data y obtuvimos los siguientes resultados:
+
 ![testingApp]
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -79,3 +87,5 @@ Según el testeo nos dimos cuenta que:
 [prototype-url]: https://www.figma.com/proto/r4WNNhy1BF9AtnZGIKXqRo/HarryPotterPage?page-id=0%3A1&node-id=1%3A2&viewport=449%2C618%2C0.12&scaling=scale-down-width&starting-point-node-id=1%3A2
 [historiaUsuario]: ./src/img/prototype/historiaDeUsuario.PNG
 [testingApp]: ./src/img/test.png
+[github-page-Rossy]: https://rossyalex.github.io/data-lovers/
+[github-page-Misdely]: 
