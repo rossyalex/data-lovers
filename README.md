@@ -2,29 +2,21 @@
 
 ## Índice
 
-* [1. Link proyecto](#1-Link)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Investigación UX](#3-investigación-UX)
-* [4. Historias de Usuario](#4-historias-de-usuario)
-* [5. Diseño de la Interfaz de Usuario](#5-diseño-de-la-interfaz-de-usuario)
-* [6. Testeos de usabilidad](#6-testeos-de-usabilidad)
-* [7. Pruebas unitarias](#7-pruebas-unitarias)
+* [1. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Investigación UX](#3-investigación-UX)
+* [3. Historias de Usuario](#4-historias-de-usuario)
+* [4. Diseño de la Interfaz de Usuario](#5-diseño-de-la-interfaz-de-usuario)
+* [5. Testeos de usabilidad](#6-testeos-de-usabilidad)
+* [6. Pruebas unitarias](#7-pruebas-unitarias)
 
 
 ***
 
-## 1. Link Proyecto
-
-Harry Potter Fan Page
-[Link](https://rossyalex.github.io/data-lovers/)
-
-***
-
-## 2. Resumen del proyecto
+## 1. Resumen del proyecto
 Nuestro sitio web es una fanpage con temática de Harry Potter para sus fans, en la cual pueden ver información sobre las películas, personajes, casas de estudio, hechizos y pociones utilizados por los personajes; así como datos curiosos relacionados a la saga. El objetivo es hacer un sitio donde el usuario se sienta cómodo al navegar, que su interfaz sea amigable pero a la vez dinámica y cautivadora. Puedes ver nuestro proyecto final [aquí][github-page-Misdely] o [aquí][github-page-Rossy].
 ***
 
-## 3. Investigación UX
+## 2. Investigación UX
 
 ### __¿Quiénes son los principales usuarios del producto?__
 
@@ -44,13 +36,13 @@ En los tiempos libres para distraerse, compartir con familiares y amigos.  Tambi
 
 
 ***
-## 4. Historias de Usuario
+## 3. Historias de Usuario
 
 ![historiaUsuario]
 
 Todo esto realizado con html dinámico en `main.js`
 ***
-## 5. Diseño de la Interfaz de Usuario
+## 4. Diseño de la Interfaz de Usuario
 
 
 
@@ -65,7 +57,7 @@ Todo esto realizado con html dinámico en `main.js`
 
  ![prototipo2]
 ***
-## 6. Testeos de usabilidad
+## 5. Testeos de usabilidad
 Al probar la implementación de nuestro diseño y recibir feedback de compañeras, identificamos posibles mejoras que aplicamos en el código. Los principales problemas y sus resoluciones fueron:
 
 * Las imágenes se sobreponen cuando se va a achicando la pantalla, se agrega propiedad en css para disminuir tamaño en pantallas menores.
@@ -75,7 +67,7 @@ Al probar la implementación de nuestro diseño y recibir feedback de compañera
 * Las cartas que muestras imágenes e información de la data en pantallas pequeñas se alineaban a la izquierda, se centro la columna en media queries.
 
 ***
-## 7. Pruebas unitarias
+## 6. Pruebas unitarias
 
 Se realizaron los test a las funciones de cada página que filtra, ordena y muestra la información de la data y obtuvimos los siguientes resultados:
 
@@ -88,4 +80,4 @@ Se realizaron los test a las funciones de cada página que filtra, ordena y mues
 [historiaUsuario]: ./src/img/prototype/historiaDeUsuario.PNG
 [testingApp]: ./src/img/test.png
 [github-page-Rossy]: https://rossyalex.github.io/data-lovers/
-[github-page-Misdely]: 
+[github-page-Misdely]: https://misdelymorales.github.io/data-lovers/
